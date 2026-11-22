@@ -80,3 +80,5 @@
 @media (min-width:1440px) {
   .hero-content { max-width:824px; }
 }
+/* Pre-publish polish: keep the required-field asterisk on the same line as its label */
+.booking-dialog label>span[aria-hidden="true"]{display:contents}

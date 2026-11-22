@@ -18,4 +18,4 @@ Open `index.html` in a modern browser to explore the site, or upload the **conte
 
 This is a **design concept**, not a live Riverstone business website. Names, experience metrics, rating, testimonial, locations, and contact workflow are placeholders derived from the supplied concept. The project form intentionally does not transmit information. Connect it to a real email delivery or backend service, and replace all claims and business details with verified client information, before publishing as a real business website.
 
-The website's images are adapted/cropped from the user-provided visual reference in this project and stored locally under `assets/` so the site does not depend on external image services. `make_assets.py` documents the extraction for future use; it is not required for deployment.
+The website's images are adapted/cropped from the user-provided visual reference in this project and stored locally under `assets/` so the site does not depend on external image services. The one-off asset extraction script was removed before publishing; it is not required for deployment.

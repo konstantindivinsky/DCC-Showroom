@@ -5,7 +5,7 @@
   // Adding a future concept only requires an entry here and its site directory.
   const demos = [
     { id:"apex-motorsports",name:"Apex Motorsports",category:"automotive",kind:"High-performance automotive",tag:"PERFORMANCE / HIGH ENERGY",description:"An unapologetically bold experience for a high-performance tuning and fabrication shop.",image:"apex-motorsports/assets/img/hero.webp" },
-    { id:"iron-and-road",name:"Iron & Road",category:"automotive",kind:"Motorcycle workshop",tag:"MOTORCYCLES / CHARACTER",description:"A rugged, editorial motorcycle workshop concept with expressive imagery and real service interactions.",image:"" },
+    { id:"iron-and-road",name:"Iron & Road",category:"automotive",kind:"Motorcycle workshop",tag:"MOTORCYCLES / CHARACTER",description:"A rugged, editorial motorcycle workshop concept with expressive imagery and real service interactions.",image:"showroom/assets/thumbs/iron-and-road.webp" },
     { id:"harbor-auto-service",name:"Harbor Auto Service",category:"automotive",kind:"Independent service center",tag:"AUTO CARE / TRUST",description:"An approachable, professional presence for a dependable neighborhood auto service center.",image:"harbor-auto-service/assets/harbor-hero.webp" },
     { id:"precision-diagnostics",name:"Precision Diagnostics",category:"automotive",kind:"Specialized vehicle diagnostics",tag:"DIAGNOSTICS / PRECISION",description:"A technology-forward service experience for advanced automotive diagnostics and repair.",image:"precision-diagnostics/assets/hero-diagnostics.webp" },
     { id:"fleetline-service-co",name:"Fleetline Service Co.",category:"automotive",kind:"Commercial fleet services",tag:"FLEET / CAPABILITY",description:"A confident industrial design for vehicle fleet maintenance and commercial service.",image:"fleetline-service-co/assets/fleetline-hero.jpg" },
@@ -25,7 +25,7 @@
     { id:"alex-mercer",name:"Alex Mercer",category:"professional",kind:"Creative portfolio",tag:"PORTFOLIO / EDITORIAL",description:"A contemporary creative portfolio that leads with work, identity, and a distinctive voice.",image:"alex-mercer/assets/alex-portrait.jpg" },
     { id:"james-morrison",name:"James Morrison",category:"professional",kind:"Professional personal brand",tag:"PERSONAL BRAND / EDITORIAL",description:"An architectural, understated personal brand website with room for substance and story.",image:"james-morrison/assets/hero-portrait.webp" },
     { id:"morgan-reeves",name:"Morgan Reeves",category:"professional",kind:"Creative professional",tag:"PERSONAL BRAND / MODERN",description:"A contemporary professional website with confident type, personal imagery, and clean structure.",image:"morgan-reeves/assets/morgan-portrait.webp" },
-    { id:"richard-hartwell",name:"Richard Hartwell",category:"professional",kind:"Law practice",tag:"LEGAL / AUTHORITY",description:"A refined legal services website designed to communicate credibility and experience.",image:"" },
+    { id:"richard-hartwell",name:"Richard Hartwell",category:"professional",kind:"Law practice",tag:"LEGAL / AUTHORITY",description:"A refined legal services website designed to communicate credibility and experience.",image:"showroom/assets/thumbs/richard-hartwell.webp" },
 
     { id:"riverside-wellness",name:"Riverside Wellness",category:"wellness",kind:"Health and wellness practice",tag:"WELLNESS / CALM",description:"A calm, contemporary practice website designed to feel approachable and reassuring.",image:"riverside-wellness/assets/hero-doctor.webp" }
   ];
@@ -44,6 +44,8 @@
   const frame = $("demo-frame");
   const categoryProgress = $("category-progress");
   const browserShell = $("browser-shell");
+  const browserStage = $("browser-stage");
+  let loadTimer = 0;
   let categoryIndex = 0;
   let selectedId = demos[0].id;
   let mobile = false;
@@ -129,7 +131,14 @@
     });
   }
 
-  function selectDemo(id, scrollCard=false) {
+  // A subtle loading state while the next demo's page and images arrive.
+  function setLoading(isLoading) {
+    window.clearTimeout(loadTimer);
+    browserStage.classList.toggle("is-loading", isLoading);
+    if (isLoading) loadTimer = window.setTimeout(() => setLoading(false), 8000);
+  }
+
+  function selectDemo(id, scrollCard=false, rememberInUrl=true) {
     const item = demos.find(d=>d.id === id);
     if (!item) return;
     selectedId = item.id;
@@ -151,6 +160,7 @@
     $("viewer-text-link").href = link;
     if (frame.getAttribute("src") !== link) {
       frame.title = "Live interactive preview of "+item.name;
+      setLoading(true);
       frame.src = link;
     }
     strip.querySelectorAll(".demo-card").forEach(card=>{
@@ -160,7 +170,7 @@
       const button = Array.from(strip.querySelectorAll(".demo-card")).find(b=>b.dataset.demoId===id);
       if (button) strip.scrollTo({left:button.offsetLeft-strip.offsetLeft-16,behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});
     }
-    updateQuery();
+    if (rememberInUrl) updateQuery();
   }
 
   function setCategory(index) {
@@ -196,6 +206,11 @@
   $("device-desktop").addEventListener("click",()=>setDevice(false));
   $("device-mobile").addEventListener("click",()=>setDevice(true));
   $("copyright-year").textContent = String(new Date().getFullYear());
+  frame.addEventListener("load",() => setLoading(false));
+  try {
+    if (frame.contentDocument && frame.contentDocument.readyState === "complete" && frame.contentWindow.location.href !== "about:blank") setLoading(false);
+    else setLoading(true);
+  } catch { setLoading(false); }
 
   const menuToggle = $("menu-toggle");
   const mainNav = $("main-nav");
@@ -232,6 +247,7 @@
   if (!visibleDemos().some(d=>d.id===selectedId)) categoryIndex=0;
   renderCategory();
   renderCards();
-  selectDemo(selectedId, true);
+  // Keep the landing URL clean; the address only changes once a visitor browses.
+  selectDemo(selectedId, true, false);
   setDevice(false);
 })();

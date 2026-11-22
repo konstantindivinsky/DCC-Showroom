@@ -1,5 +1,7 @@
 # Divinsky Website Showroom
 
+Live at **https://showroom.divinsky.net/**.
+
 A single static, mobile-friendly showroom containing **20 complete interactive website concepts**. This is an inspiration collection, **not** a template store or a menu of fixed designs. Each concept is fictional and intended to help clients discuss the possibilities for an original website.
 
 The entire project is one website. The root `index.html` is the showroom, and every demo opens from a dedicated subfolder. The demos are preserved from their approved individual builds, including their local photos, stylesheets, scripts, forms, and interactions.
@@ -56,6 +58,8 @@ showroom/
   app.js                    Categories, navigation and live previews
   styles.css                Responsive Divinsky showroom styling
   assets/                   Original Divinsky logo and favicon
+  assets/thumbs/            Card thumbnails for demos that embed their images inline
+  assets/og-image.jpg       1200x630 link-preview image (referenced by absolute URL in index.html)
 apex-motorsports/           First original demo, moved out of the old repo root
 alex-mercer/
 atelier-noir/
@@ -64,10 +68,10 @@ atelier-noir/
 
 ## Content and privacy
 
-These concepts are demonstrations, not actual businesses or active customer services. Contact, reservation, and consultation controls inside demos may simulate preparing a request but are **not** wired to production backends. Demo phone numbers, awards, testimonials, prices, people, and performance figures may be fictional. The main showroom asks search engines not to index it. Replace imagery and confirm usage rights before reusing any concept for real clients.
+These concepts are demonstrations, not actual businesses or active customer services. Contact, reservation, and consultation controls inside demos may simulate preparing a request but are **not** wired to production backends. Demo phone numbers, awards, testimonials, prices, people, and performance figures may be fictional. The showroom and every demo page ask search engines not to index them (`noindex, nofollow`), so fictional businesses, phone numbers, and addresses stay out of search results. Replace imagery and confirm usage rights before reusing any concept for real clients.
 
 ## Maintaining the gallery
 
-Add a future static demo in a new sibling folder with its own `index.html` and relative assets. Then add its metadata to `demos` in `showroom/app.js`, and optionally add a category to `categories`. The centered industry selector is data-driven so it does not require changes when categories are added.
+Add a future static demo in a new sibling folder with its own `index.html` and relative assets. Then add its metadata to `demos` in `showroom/app.js`, and optionally add a category to `categories`. Add `<meta name="robots" content="noindex, nofollow">` to the new demo's `<head>` as well. The centered industry selector is data-driven so it does not require changes when categories are added.
 
 **No GitHub Actions workflows or hosted runners are required.**

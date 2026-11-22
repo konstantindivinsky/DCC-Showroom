@@ -272,3 +272,5 @@ p{line-height:1.45}
 }
 @media (max-width:350px){.brand__words strong{font-size:15px}.brand__words small{font-size:6px}.service-grid{grid-template-columns:1fr}.service-card{min-height:132px}.client-list{grid-template-columns:1fr 1fr}.client-mark svg{width:23px;height:23px}.client-mark{font-size:11px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;scroll-behavior:auto!important}}
+/* Pre-publish polish: keep the required-field asterisk on the same line as its label */
+#contact-form label>span[aria-hidden="true"]{display:contents}

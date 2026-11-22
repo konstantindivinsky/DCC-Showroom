@@ -18,3 +18,5 @@
 @media (min-width:951px) and (max-width:1250px){.category-heading .eyebrow{font-size:14px;letter-spacing:.14em}}
 @media (min-width:951px) and (max-width:1040px){.category-heading{min-width:178px}.category-strip{gap:13px}.category-cards{gap:10px}.category-card>span{font-size:18px;overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.001ms!important;animation-duration:.001ms!important}}
+/* Pre-publish polish: keep the required-field asterisk on the same line as its label */
+.consultation-form label>span[aria-hidden="true"]{display:contents}

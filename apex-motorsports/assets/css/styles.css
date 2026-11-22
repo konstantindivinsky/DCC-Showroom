@@ -223,3 +223,7 @@ svg{display:block}
 }
 .site-shell{overflow:clip}
 .site-header{position:sticky;top:0}
+/* Pre-publish polish: keep the full desktop header on one line between 1100px and 1399px */
+@media(min-width:1100px) and (max-width:1399px){.brand-services{display:none}.brand-mark{width:225px}.desktop-nav{gap:15px}.nav-link{font-size:16px}}
+/* Pre-publish polish: keep the required-field asterisk on the same line as its label */
+.inquiry-form label>span,.site-dialog label>span{display:contents}

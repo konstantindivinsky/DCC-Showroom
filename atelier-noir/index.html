@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e0d0c">
+  <meta name="description" content="Atelier Noir, an intimate expression of seasonal cuisine, artistry, and place. Explore the experience, tasting menus, and a sample reservation journey.">
+  <title>Atelier Noir | An Intimate Dining Experience</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" href="assets/hero-steak.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Atelier Noir, return to top">ATELIER NOIR</a>
+    <button class="mobile-toggle" type="button" id="nav-toggle" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#experience">The Experience</a>
+      <a href="#menus">Menus</a>
+      <a href="#chef">Our Chef</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#impressions">Press</a>
+      <button class="nav-reserve outline-button" type="button" data-open-booking>Reservations</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <img class="hero-main-food" src="assets/hero-steak.webp" alt="A modern fine dining course with seared beef, caramelized onion and edible flowers" fetchpriority="high">
+      <div class="hero-copy">
+        <h1 id="hero-title">ATELIER<br>NOIR</h1>
+        <span class="short-rule" aria-hidden="true"></span>
+        <p class="hero-kicker">A modern fine-dining<br>restaurant</p>
+        <p class="hero-intro">Seasonal cuisine at the<br>intersection of craft,<br>art, and place.</p>
+      </div>
+
+      <div class="chef-note">
+        <div class="chef-note-text">
+          <p class="eyebrow">A note from<br>the chef</p>
+          <p class="chef-quote">Atelier Noir is a space for curiosity, where the seasons guide the menu, technique serves the ingredient, and every dish tells a quiet story of place.</p>
+          <span class="chef-signature" aria-hidden="true">Julien</span>
+          <p class="chef-name">Julien Moreau<span>Executive Chef</span></p>
+        </div>
+        <img src="assets/chef.webp" alt="Portrait of the chef in his kitchen" class="chef-hero-photo">
+      </div>
+
+      <form class="reservation-card" id="quick-reservation">
+        <h2>Reserve<br>a table</h2>
+        <p>Experience Atelier Noir with a curated seasonal menu and attentive, unhurried service.</p>
+        <label class="quick-field"><span class="field-icon" aria-hidden="true">▣</span><span class="sr-only">Select a date</span><input id="quick-date" type="date" aria-label="Select reservation date" required></label>
+        <label class="quick-field"><span class="field-icon guest-icon" aria-hidden="true">♙</span><span class="sr-only">Party size</span><select id="quick-guests" aria-label="Number of guests"><option value="1">1 Guest</option><option value="2" selected>2 Guests</option><option value="3">3 Guests</option><option value="4">4 Guests</option><option value="5">5 Guests</option><option value="6">6 Guests</option><option value="7">7 Guests</option><option value="8">8 Guests</option></select></label>
+        <button type="submit" class="gold-button">Find a reservation <span aria-hidden="true">→</span></button>
+      </form>
+
+      <div class="tasting-teaser">
+        <p class="eyebrow">The tasting menu</p>
+        <span class="short-rule" aria-hidden="true"></span>
+        <h2>A Seasonal<br>Progression</h2>
+        <p>A multi-course journey through the current season, balancing precision, texture, and unexpected harmony.</p>
+        <a href="#menus" class="text-link">Explore the menu <span aria-hidden="true">→</span></a>
+      </div>
+      <img class="hero-seafood" src="assets/scallops.webp" alt="Delicate scallop course with herbs and vibrant edible flowers">
+    </section>
+
+    <section class="impressions-strip" id="impressions" aria-label="Editorial impressions">
+      <span class="strip-label">The Impression</span>
+      <p>“A masterclass in modern fine dining.”</p>
+      <span class="strip-divider" aria-hidden="true"></span>
+      <p>“Bold, elegant, unforgettable.”</p>
+      <span class="strip-label end-label">The Atelier Spirit</span>
+    </section>
+
+    <section class="photo-mosaic" id="gallery" aria-label="A glimpse inside Atelier Noir">
+      <button class="mosaic-cell mosaic-dining" type="button" data-gallery="0" aria-label="View dining room photo"><img src="assets/interior.webp" alt="Intimate dining room with warm lighting, set tables and dark finishes" loading="lazy"></button>
+      <div class="mosaic-stack">
+        <button class="mosaic-cell" type="button" data-gallery="1" aria-label="View truffle photo"><img src="assets/truffles.webp" alt="Black truffles with thin shavings" loading="lazy"></button>
+        <button class="mosaic-cell" type="button" data-gallery="2" aria-label="View radicchio photo"><img src="assets/radicchio.webp" alt="Deep burgundy radicchio leaves" loading="lazy"></button>
+      </div>
+      <button class="mosaic-cell mosaic-wine" type="button" data-gallery="3" aria-label="View wine photo"><img src="assets/wine.webp" alt="Red wine poured into a stemmed glass" loading="lazy"></button>
+    </section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <img class="experience-image" src="assets/tasting-dish.webp" alt="An artfully composed seasonal course with vegetables and tiny flowers" loading="lazy">
+      <div class="experience-content">
+        <p class="eyebrow">The dining experience</p>
+        <h2 id="experience-title">More Than a Meal</h2>
+        <span class="short-rule" aria-hidden="true"></span>
+        <div class="experience-columns">
+          <p>Atelier Noir is an intimate dining experience that unfolds like a story, rooted in the rhythms of the season, inspired by local producers, and shaped by a spirit of artistic exploration.</p>
+          <p>From the first bite to the final course, our aim is to create a sense of immersion: flavors that linger, details that surprise, and a feeling of being somewhere entirely your own.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menus-section padded-section" id="menus" aria-labelledby="menus-title">
+      <div class="section-heading">
+        <p class="eyebrow">Crafted by season</p>
+        <h2 id="menus-title">An Exploration<br><em>of the Senses</em></h2>
+        <p>Each menu is an invitation to slow down and discover ingredients at their most expressive.</p>
+      </div>
+      <div class="menu-board">
+        <div class="menu-tabs" role="tablist" aria-label="Sample tasting menus">
+          <button type="button" class="menu-tab" id="tab-seasonal" role="tab" aria-selected="true" aria-controls="panel-seasonal" data-menu-tab="seasonal">Seasonal Tasting</button>
+          <button type="button" class="menu-tab" id="tab-garden" role="tab" aria-selected="false" aria-controls="panel-garden" data-menu-tab="garden" tabindex="-1">The Garden</button>
+        </div>
+        <div class="menu-panel" id="panel-seasonal" role="tabpanel" aria-labelledby="tab-seasonal">
+          <div class="menu-heading"><div><span class="eyebrow">Six expressions</span><h3>The Seasonal Progression</h3></div><span class="menu-type">Sample menu</span></div>
+          <div class="course-list">
+            <article class="course"><span>01 / The Beginning</span><div><h4>First Light</h4><p>Oyster, green apple, coastal herbs</p></div></article>
+            <article class="course"><span>02 / From the Earth</span><div><h4>Roots &amp; Ash</h4><p>Young carrots, cultured cream, smoked honey</p></div></article>
+            <article class="course"><span>03 / Of the Sea</span><div><h4>Tide &amp; Texture</h4><p>Day-boat scallop, brown butter, sea greens</p></div></article>
+            <article class="course"><span>04 / The Harvest</span><div><h4>Woodland</h4><p>Wild mushroom, black truffle, savory broth</p></div></article>
+            <article class="course"><span>05 / The Main Act</span><div><h4>Ember</h4><p>Beef, charred onion, rich jus, garden flowers</p></div></article>
+            <article class="course"><span>06 / A Final Note</span><div><h4>Afterglow</h4><p>Dark chocolate, pear, toasted hazelnut</p></div></article>
+          </div>
+        </div>
+        <div class="menu-panel" id="panel-garden" role="tabpanel" aria-labelledby="tab-garden" hidden>
+          <div class="menu-heading"><div><span class="eyebrow">Six expressions</span><h3>The Garden Progression</h3></div><span class="menu-type">Sample menu</span></div>
+          <div class="course-list">
+            <article class="course"><span>01 / The Beginning</span><div><h4>Green Prelude</h4><p>Cucumber, green apple, fresh herbs</p></div></article>
+            <article class="course"><span>02 / From the Earth</span><div><h4>Roots &amp; Ash</h4><p>Young carrots, cultured cream, smoked maple</p></div></article>
+            <article class="course"><span>03 / The Orchard</span><div><h4>Early Harvest</h4><p>Beetroot, preserved cherry, garden sorrel</p></div></article>
+            <article class="course"><span>04 / The Forest</span><div><h4>Woodland</h4><p>Wild mushroom, black truffle, vegetable consommé</p></div></article>
+            <article class="course"><span>05 / At the Hearth</span><div><h4>Ember &amp; Grain</h4><p>Coal-roasted squash, heritage grains, rosemary</p></div></article>
+            <article class="course"><span>06 / A Final Note</span><div><h4>Afterglow</h4><p>Poached pear, dark chocolate, toasted hazelnut</p></div></article>
+          </div>
+        </div>
+        <div class="menu-footer"><p>Menus are illustrative and change with the seasons. Please mention dietary requirements when making an inquiry.</p><button type="button" class="text-link button-link" data-open-booking>Inquire about a table <span aria-hidden="true">→</span></button></div>
+      </div>
+    </section>
+
+    <section class="chef-section padded-section" id="chef" aria-labelledby="chef-title">
+      <div class="chef-section-photo"><img src="assets/chef.webp" alt="Executive chef in a black apron, photographed in dramatic light" loading="lazy"><span>THE ARTIST BEHIND THE PLATE</span></div>
+      <div class="chef-section-content"><p class="eyebrow">Meet the chef</p><h2 id="chef-title">An Instinct<br><em>for the Unexpected</em></h2><span class="short-rule" aria-hidden="true"></span><p>For Chef Julien Moreau, the most memorable dishes begin with an observation: the character of an ingredient, the turning of a season, the detail others may overlook.</p><p>His approach pairs classical discipline with a sense of discovery, allowing each ingredient to speak with clarity and restraint.</p><span class="chef-signature">Julien</span><span class="chef-name">Julien Moreau<span>Executive Chef</span></span></div>
+    </section>
+
+    <section class="closing-section padded-section"><p class="eyebrow">A table is waiting</p><h2>Something<br><em>to Remember</em></h2><p>For special occasions, quiet celebrations, and evenings without a reason.</p><button class="gold-button closing-button" type="button" data-open-booking>Explore reservations <span aria-hidden="true">→</span></button></section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#top">ATELIER NOIR</a>
+    <p>Seasonal cuisine. Thoughtful hospitality. An evening all your own.</p>
+    <nav aria-label="Footer navigation"><a href="#experience">Experience</a><a href="#menus">Menus</a><a href="#chef">Chef</a><a href="#gallery">Gallery</a><button type="button" data-open-booking>Reservations</button></nav>
+    <div class="footer-bottom"><span>© <span id="year"></span> Atelier Noir. Showroom design concept.</span><span>All menus, reviews, chef identity, and reservations are illustrative.</span></div>
+  </footer>
+
+  <dialog class="booking-dialog" id="booking-dialog" aria-labelledby="booking-title">
+    <button class="dialog-close" type="button" data-close-booking aria-label="Close reservations">×</button>
+    <div class="booking-content" id="booking-content">
+      <p class="eyebrow">An evening at Atelier Noir</p><h2 id="booking-title">Reserve a Table</h2><p>Share your preferred evening and we'll show you what the reservation experience could look like.</p>
+      <div class="demo-notice">Showroom preview only. This form does not check availability or send a real reservation.</div>
+      <form id="booking-form">
+        <div class="booking-grid"><label>Preferred date<input type="date" id="booking-date" name="date" required></label><label>Guests<select id="booking-guests" name="guests" required><option value="1">1 Guest</option><option value="2" selected>2 Guests</option><option value="3">3 Guests</option><option value="4">4 Guests</option><option value="5">5 Guests</option><option value="6">6 Guests</option><option value="7">7 Guests</option><option value="8">8 Guests</option></select></label></div>
+        <label>Preferred seating time<select name="time" id="booking-time" required><option value="">Choose a time</option><option>5:00 PM</option><option>5:30 PM</option><option>6:00 PM</option><option>6:30 PM</option><option>7:00 PM</option><option>7:30 PM</option><option>8:00 PM</option><option>8:30 PM</option></select></label>
+        <div class="booking-grid"><label>Your name<input name="name" id="booking-name" type="text" autocomplete="name" maxlength="90" placeholder="Full name" required></label><label>Email address<input type="email" name="email" id="booking-email" autocomplete="email" maxlength="120" placeholder="you@example.com" required></label></div>
+        <label>Special requests <span class="optional">(optional)</span><textarea name="notes" rows="3" maxlength="500" placeholder="Occasion or dietary considerations"></textarea></label>
+        <button type="submit" class="gold-button">Preview request <span aria-hidden="true">→</span></button>
+      </form>
+    </div>
+    <div class="booking-confirmation" id="booking-confirmation" hidden>
+      <p class="eyebrow">Preview complete</p><h2>Beautifully<br><em>Planned.</em></h2><p id="booking-summary"></p><div class="demo-notice">This was a demonstration. No message was sent and no reservation was created.</div><button type="button" class="gold-button" data-close-booking>Close preview <span aria-hidden="true">→</span></button>
+    </div>
+  </dialog>
+
+  <dialog class="gallery-dialog" id="gallery-dialog" aria-label="Photo gallery">
+    <button type="button" class="dialog-close" id="gallery-close" aria-label="Close gallery">×</button>
+    <figure><img id="gallery-large" src="assets/interior.webp" alt=""><figcaption id="gallery-caption"></figcaption></figure>
+    <div class="gallery-controls"><button type="button" id="gallery-previous" aria-label="Previous photograph">← Previous</button><span id="gallery-count">1 / 4</span><button type="button" id="gallery-next" aria-label="Next photograph">Next →</button></div>
+  </dialog>
+</body>
+</html>

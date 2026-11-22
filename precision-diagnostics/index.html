@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#075e99">
+  <meta name="description" content="Precision Diagnostics concept website. Professional vehicle diagnostics, electrical testing and warning light guidance in Lewisberry, Pennsylvania.">
+  <title>Precision Diagnostics | Find the Root Cause. Fix It Right.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19 19 0 0 1-8.3-3 18.5 18.5 0 0 1-5.7-5.7 19 19 0 0 1-3-8.4A2 2 0 0 1 4.8 2h3a2 2 0 0 1 2 1.7l.6 3.4a2 2 0 0 1-.6 1.8L7.9 10a16 16 0 0 0 6.1 6.1l1.2-1.9a2 2 0 0 1 1.8-.6l3.4.6a2 2 0 0 1 1.6 2Z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6M17 2v6M3 10h18M7 14h2M12 14h2M7 18h2"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 48 36"><path d="M1 19h10l5-10 7 20 6-15 3 5h15"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24"><path d="M3 8V4a1 1 0 0 1 1-1h4m8 0h4a1 1 0 0 1 1 1v4m0 8v4a1 1 0 0 1-1 1h-4M8 21H4a1 1 0 0 1-1-1v-4M5 12h14M12 7v10"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="18" rx="2"/><rect x="9" y="2" width="6" height="4" rx="1"/><path d="m8 12 2 2 4-4M8 18h8"/></symbol>
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="13" rx="1"/><path d="m2 20 2-4h16l2 4H2Zm5-8 3-3 2 2 4-4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7"/><path d="m16 16 6 6"/></symbol>
+    <symbol id="i-tools" viewBox="0 0 24 24"><path d="m4 21 9-9M7 6l3 3M2 3l5 1 3 3-3 3-3-3-2-4Zm12 18-3-3m3-13a6 6 0 0 0 7 7l-4 4-5-5 4-4a6 6 0 0 0-2-2Z"/></symbol>
+    <symbol id="i-engine" viewBox="0 0 24 24"><path d="M3 9V6h3l2 3h9l3 3v6h-3l-2 2H8l-2-3H3V9Zm8-3V3m-3 0h6M1 12v5M23 12v5"/></symbol>
+    <symbol id="i-battery" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="13" rx="1"/><path d="M7 7V4m10 3V4M6 13h5m-2.5-2.5v5M15 13h5"/></symbol>
+    <symbol id="i-oil" viewBox="0 0 24 24"><path d="M3 9h11l4-3 3 3-3 3h-2l-3 7H5L3 9Zm2-3 5 3M20 16c0 2-2 3-2 4a2 2 0 0 0 4 0c0-1-2-2-2-4Z"/></symbol>
+    <symbol id="i-abs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M3 4 1 7v10l2 3M21 4l2 3v10l-2 3"/><text x="12" y="15" text-anchor="middle" font-size="7" font-family="sans-serif" font-weight="bold" stroke="none" fill="currentColor">ABS</text></symbol>
+    <symbol id="i-airbag" viewBox="0 0 24 24"><circle cx="7" cy="5" r="2"/><path d="m8 9 3 5-4 8M7 12l-4 3m7-6 4 1 3 5m-6-2 7 6"/><circle cx="18" cy="8" r="4"/></symbol>
+    <symbol id="i-tire" viewBox="0 0 24 24"><path d="M6 4C1 10 3 19 9 21M18 4c5 6 3 15-3 17M9 21h6M12 6v8m0 3v1"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4M5 10h3l2-3 3 6 2-3h4"/></symbol>
+    <symbol id="i-network" viewBox="0 0 24 24"><circle cx="12" cy="4" r="2"/><circle cx="4" cy="19" r="2"/><circle cx="20" cy="19" r="2"/><circle cx="12" cy="14" r="2"/><path d="M12 6v6m-2 3-5 3m9-3 5 3"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="1"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 1v4m0 14v4M1 12h4m14 0h4"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 10 6-10 6L2 9l10-6ZM2 13l10 6 10-6M2 17l10 6 10-6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 6 4 9 9 11 5-2 9-5 9-11V6l-9-4Z"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="i-handshake" viewBox="0 0 24 24"><path d="m2 9 6-5 4 1 4-1 6 5-5 7-5 5-4-3-3-4-3-5Zm10-4-4 5 2 2 3-2 5 5m-8 3 3-3m-7 0 3-3"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Precision Diagnostics home"><img src="assets/logo.webp" alt="Precision Diagnostics, auto repair, diagnostics, electrical" width="547" height="106"></a>
+      <div class="header-right">
+        <div class="utility-bar">
+          <span class="utility-item location"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Lewisberry, PA</span>
+          <a class="utility-item phone" href="tel:+12233089452"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg> (223) 308-9452</a>
+          <button class="schedule-button" type="button" data-booking><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg> Schedule Service</button>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Open navigation" aria-controls="main-nav" aria-expanded="false" type="button"><svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg></button>
+        <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+          <a class="nav-link active" href="#top">Home</a>
+          <a class="nav-link" href="#diagnostics">Diagnostics</a>
+          <div class="nav-dropdown">
+            <button class="nav-link dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">Services <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+            <div class="dropdown-menu">
+              <a href="#services">All Services</a><a href="#services">Electrical Diagnostics</a><a href="#services">Vehicle Performance</a><a href="#services">Module &amp; Sensor Testing</a>
+            </div>
+          </div>
+          <a class="nav-link" href="#warning-lights">Warning Lights</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" role="img" aria-label="Automotive diagnostic scan tablet beside an illuminated blue digital wireframe of a vehicle"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Find the root cause. Fix it right.</p>
+          <h1 id="hero-title">Advanced Automotive <span>Diagnostics</span></h1>
+          <p class="hero-description">Modern vehicles are complex. We use professional-grade diagnostic tools, real data, and a systematic process to identify problems accurately, so you only pay for the repairs you actually need.</p>
+          <ul class="hero-checks" aria-label="Diagnostic specialties">
+            <li><svg class="icon"><use href="#i-check"/></svg> Check Engine &amp; Warning Lights</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> Driveability &amp; Performance Issues</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> Electrical &amp; Network Diagnostics</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> Module &amp; Sensor Testing</li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-cta-bar">
+        <button class="diagnosis-button" data-booking type="button"><svg class="icon pulse-icon" aria-hidden="true"><use href="#i-pulse"/></svg><span>Get a Diagnosis</span><svg class="icon arrow-icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <button class="uncertain-button" data-booking type="button"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span><strong>Not sure what's wrong?</strong><small>Start with a professional diagnosis.</small></span></button>
+      </div>
+    </section>
+
+    <section class="process-warning-section section-wrap" id="diagnostics">
+      <div class="process-side">
+        <h2 class="lined-heading">Our Diagnostic Process</h2>
+        <div class="process-steps">
+          <article class="process-step"><span class="number">1</span><svg class="icon step-icon" aria-hidden="true"><use href="#i-clipboard"/></svg><h3>Listen &amp; Inspect</h3><p>Understand the symptoms and verify the concern.</p></article>
+          <article class="process-step"><span class="number">2</span><svg class="icon step-icon" aria-hidden="true"><use href="#i-laptop"/></svg><h3>Scan &amp; Analyze</h3><p>Read fault codes, live data, and system performance.</p></article>
+          <article class="process-step"><span class="number">3</span><svg class="icon step-icon" aria-hidden="true"><use href="#i-search"/></svg><h3>Test &amp; Confirm</h3><p>Pinpoint the root cause with targeted testing.</p></article>
+          <article class="process-step"><span class="number">4</span><svg class="icon step-icon" aria-hidden="true"><use href="#i-tools"/></svg><h3>Recommend &amp; Repair</h3><p>Explain the findings and provide clear repair options.</p></article>
+        </div>
+      </div>
+      <div class="warning-side" id="warning-lights">
+        <h2 class="lined-heading">Common Warning Lights</h2>
+        <p class="warning-intro">See what it means and what to do next.</p>
+        <div class="warning-tiles" role="group" aria-label="Choose a warning light">
+          <button type="button" class="warning-tile amber" data-warning="engine"><svg class="icon" aria-hidden="true"><use href="#i-engine"/></svg><span>Check<br>Engine</span></button>
+          <button type="button" class="warning-tile red" data-warning="battery"><svg class="icon" aria-hidden="true"><use href="#i-battery"/></svg><span>Battery /<br>Charging</span></button>
+          <button type="button" class="warning-tile red" data-warning="oil"><svg class="icon" aria-hidden="true"><use href="#i-oil"/></svg><span>Oil<br>Pressure</span></button>
+          <button type="button" class="warning-tile amber" data-warning="abs"><svg class="icon" aria-hidden="true"><use href="#i-abs"/></svg><span>ABS /<br>Traction</span></button>
+          <button type="button" class="warning-tile red" data-warning="airbag"><svg class="icon" aria-hidden="true"><use href="#i-airbag"/></svg><span>Airbag<br>(SRS)</span></button>
+          <button type="button" class="warning-tile amber" data-warning="tire"><svg class="icon" aria-hidden="true"><use href="#i-tire"/></svg><span>Tire<br>Pressure</span></button>
+        </div>
+        <button type="button" class="warning-guide-link" data-guide>View the Complete Warning Light Guide <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </div>
+    </section>
+
+    <section class="trust-strip" id="about" aria-labelledby="trust-title">
+      <h2 id="trust-title" class="sr-only">Equipment and approach</h2>
+      <div class="engine-photo" role="img" aria-label="Close-up of a modern vehicle engine"></div>
+      <div class="trust-panel equipment-panel">
+        <h3 class="lined-heading">Professional-Grade Equipment</h3>
+        <ul class="icon-list"><li><svg class="icon"><use href="#i-monitor"/></svg> OEM-Level Scan Tools</li><li><svg class="icon"><use href="#i-network"/></svg> CAN Bus &amp; Network Diagnostics</li><li><svg class="icon"><use href="#i-pulse"/></svg> Sensor &amp; Signal Analysis</li><li><svg class="icon"><use href="#i-chip"/></svg> Module Programming &amp; Calibration</li></ul>
+      </div>
+      <div class="trust-panel certifications-panel">
+        <h3 class="lined-heading">Certified &amp; Trusted</h3>
+        <img class="certification-art" src="assets/certifications.webp" alt="Sample ASE, I-CAR and NAPA certification graphics shown in the visual concept" width="356" height="78">
+        <ul class="check-list"><li>Specialized Technical Expertise</li><li>Ongoing Training &amp; Education</li><li>Advanced Diagnostic Approach</li></ul>
+      </div>
+      <div class="trust-panel why-panel">
+        <h3 class="lined-heading">Why Choose Precision Diagnostics?</h3>
+        <ul class="icon-list"><li><svg class="icon"><use href="#i-target"/></svg> Accurate, Data-Driven Diagnosis</li><li><svg class="icon"><use href="#i-layers"/></svg> Clear Explanations &amp; Options</li><li><svg class="icon"><use href="#i-shield"/></svg> No Guesswork or Unnecessary Repairs</li><li><svg class="icon"><use href="#i-handshake"/></svg> Honest, Technical-Service Approach</li></ul>
+      </div>
+    </section>
+
+    <section class="services-section section-wrap" id="services" aria-labelledby="services-title">
+      <div class="section-heading-row"><div><p class="mini-label">Precision in every system</p><h2 class="lined-heading" id="services-title">Diagnostics That Go Beyond the Code</h2></div><p>Fault codes are a starting point, not a diagnosis. Explore the systems a careful testing process can help evaluate.</p></div>
+      <div class="services-grid">
+        <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-engine"/></svg></span><h3>Check Engine Diagnostics</h3><p>Systematic investigation of trouble codes, emissions-related concerns, sensors, and engine performance.</p><button type="button" data-booking class="text-link">Discuss this service <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+        <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-battery"/></svg></span><h3>Electrical &amp; Charging</h3><p>Battery, alternator, starter, wiring, parasitic draw, and intermittent electrical fault testing.</p><button type="button" data-booking class="text-link">Discuss this service <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+        <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-network"/></svg></span><h3>Vehicle Network Testing</h3><p>Communication faults, module connectivity, and modern vehicle data network troubleshooting.</p><button type="button" data-booking class="text-link">Discuss this service <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+        <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-laptop"/></svg></span><h3>Driveability &amp; Performance</h3><p>Hesitation, misfires, reduced power, fuel economy issues, and other difficult-to-reproduce symptoms.</p><button type="button" data-booking class="text-link">Discuss this service <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+      </div>
+    </section>
+
+    <section class="education-section" aria-labelledby="education-title">
+      <div class="section-wrap education-inner"><div class="education-copy"><p class="mini-label">Understand your dashboard</p><h2 id="education-title">The Right Answer Starts With the Right Question.</h2><p>A warning light tells you a system needs attention. It rarely identifies the exact failed part. Explore common indicators, understand when to stop driving, and see why testing matters.</p><button type="button" class="secondary-cta" data-guide>Explore Warning Lights <svg class="icon"><use href="#i-arrow"/></svg></button></div><div class="education-screen" aria-label="Illustrative vehicle diagnostics display"><div class="screen-top"><span>PRECISION / LIVE SYSTEMS</span><span class="dot-live">SYSTEM READY</span></div><div class="scan-circle"><svg class="icon"><use href="#i-scan"/></svg></div><div class="screen-title">Vehicle Health Overview</div><div class="data-row"><span>Engine management</span><strong>SCAN</strong></div><div class="data-row"><span>Electrical system</span><strong>SCAN</strong></div><div class="data-row"><span>Chassis &amp; safety</span><strong>SCAN</strong></div><div class="screen-foot">Data is only useful with the right diagnosis.</div></div></div>
+    </section>
+
+    <section class="faq-contact section-wrap" id="contact"><div class="faq-panel"><h2 class="lined-heading">Frequently Asked Questions</h2><details><summary>Does a check engine light tell you what to replace?</summary><p>No. Trouble codes identify affected systems or conditions. Testing is needed to determine the root cause before replacing components.</p></details><details><summary>Can you diagnose intermittent electrical problems?</summary><p>Intermittent faults may require testing under specific operating conditions or additional observation. A diagnostic evaluation helps establish the next step.</p></details><details><summary>What should I do if a warning light is flashing?</summary><p>A flashing check engine light can indicate an active misfire that may damage the catalytic converter. Reduce load, pull over when safe, and seek professional guidance. Red oil pressure or overheating warnings generally call for stopping safely and switching off the engine.</p></details></div><aside class="contact-panel"><p class="mini-label">Ready for clarity?</p><h2>Let's Find the Problem, Not Just the Code.</h2><p>Tell us what your vehicle is doing. A professional diagnostic process starts with understanding your concern.</p><button class="schedule-button light" type="button" data-booking><svg class="icon"><use href="#i-calendar"/></svg> Request a Diagnosis</button><a href="tel:+12233089452" class="call-link"><svg class="icon"><use href="#i-phone"/></svg> (223) 308-9452</a><div class="location-footer"><svg class="icon"><use href="#i-pin"/></svg> Lewisberry, Pennsylvania</div></aside></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-inner"><a href="#top" class="footer-brand">Precision<span>Diagnostics</span></a><p>Find the root cause. Fix it right.</p><div class="footer-links"><a href="#diagnostics">Diagnostics</a><a href="#services">Services</a><a href="#warning-lights">Warning Lights</a><a href="#contact">Contact</a></div></div><p class="demo-disclosure">Showroom demonstration concept. Business information, credentials, affiliations and service availability are illustrative and must be confirmed before public use. No appointment requests are transmitted.</p></footer>
+
+  <dialog id="warning-dialog" class="app-dialog warning-dialog" aria-labelledby="warning-dialog-title"><div class="dialog-header"><span class="dialog-kicker">Dashboard light guide</span><button type="button" class="dialog-close" data-close-dialog aria-label="Close guide"><svg class="icon"><use href="#i-close"/></svg></button></div><div class="guide-tabs" aria-label="Warning light categories"><button type="button" data-warning="engine">Engine</button><button type="button" data-warning="battery">Battery</button><button type="button" data-warning="oil">Oil</button><button type="button" data-warning="abs">ABS</button><button type="button" data-warning="airbag">Airbag</button><button type="button" data-warning="tire">Tires</button></div><div class="warning-dialog-content"><span id="warning-dialog-symbol" class="dialog-warning-icon amber"><svg class="icon"><use href="#i-engine"/></svg></span><div><h2 id="warning-dialog-title">Check Engine</h2><span id="warning-urgency" class="urgency-tag">Schedule evaluation</span><p id="warning-meaning"></p><h3>What to do next</h3><p id="warning-next"></p></div></div><div class="dialog-actions"><button type="button" class="secondary-button" data-close-dialog>Close</button><button type="button" class="schedule-button" data-booking>Request Diagnosis</button></div><p class="dialog-fineprint">General guidance only. Follow your vehicle owner's manual and seek immediate help for unsafe driving conditions.</p></dialog>
+
+  <dialog id="booking-dialog" class="app-dialog booking-dialog" aria-labelledby="booking-title"><div class="dialog-header"><span class="dialog-kicker">Service inquiry</span><button class="dialog-close" type="button" data-close-dialog aria-label="Close booking form"><svg class="icon"><use href="#i-close"/></svg></button></div><h2 id="booking-title">Start With a Diagnosis.</h2><p>Describe your vehicle and the symptoms. This showroom demo creates a request summary you can copy. It does not send your information.</p><form id="booking-form"><div class="form-grid"><label>Your name <input name="name" maxlength="80" required autocomplete="name" placeholder="Full name"></label><label>Phone number <input name="phone" type="tel" maxlength="30" required autocomplete="tel" placeholder="(555) 555-0123"></label></div><label>Vehicle <input name="vehicle" maxlength="120" required placeholder="Year, make and model"></label><label>What are you experiencing? <textarea name="concern" rows="3" maxlength="1000" required placeholder="Warning lights, symptoms, when it happens..."></textarea></label><label>Preferred contact <select name="contact"><option value="Phone call">Phone call</option><option value="Text message">Text message</option></select></label><button class="schedule-button form-submit" type="submit">Create Request Summary <svg class="icon"><use href="#i-arrow"/></svg></button></form><section id="booking-result" class="booking-result" hidden><h3>Request Summary</h3><pre id="booking-summary"></pre><button class="secondary-button" id="copy-summary" type="button">Copy Summary</button><a class="schedule-button" href="tel:+12233089452">Call to Discuss</a><p id="copy-status" role="status" aria-live="polite"></p></section></dialog>
+</body>
+</html>

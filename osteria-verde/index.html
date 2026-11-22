@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee2cb">
+  <meta name="description" content="Osteria Verde. A little corner of Italy, where seasonal Italian food, thoughtful wine, and family hospitality come together.">
+  <title>Osteria Verde | Cucina Italiana</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-wrap">
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Osteria Verde home">
+        <img class="brand-leaves" src="assets/olive-sprig.svg" alt="">
+        <span class="brand-name">Osteria Verde</span>
+        <span class="brand-subtitle"><span>·</span> CUCINA ITALIANA <span>·</span></span>
+      </a>
+      <button type="button" class="mobile-menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#our-story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#wine">Wine &amp; Pairings</a>
+        <button type="button" class="nav-link" data-modal="private">Private Dining</button>
+        <button type="button" class="button button-red button-small" data-modal="reservations">Reservations</button>
+      </nav>
+      <img class="header-landscape" src="assets/italian-hills.jpg" alt="" aria-hidden="true">
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-leaves hero-leaves-top" src="assets/olive-sprig.svg" alt="">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow">Benvenuti a casa</p>
+          <h1 id="hero-title">A Little Corner<br>of Italy</h1>
+          <p>At Osteria Verde, we serve the food, wine, and hospitality of our family’s Italy, where meals linger, conversations flow, and every guest feels like <em>famiglia.</em></p>
+          <img class="small-ornament" src="assets/divider.svg" alt="">
+          <a class="text-link hero-explore" href="#menu">Discover our cucina <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/hero-osteria.jpg" alt="Warmly lit Italian osteria with vine-covered stone walls, flowers, and welcoming tables" fetchpriority="high">
+          <div class="hero-visual-vignette"></div>
+        </div>
+        <img class="hero-leaves hero-leaves-bottom" src="assets/olive-sprig.svg" alt="">
+      </section>
+
+      <section class="signatures section-paper" id="menu" aria-labelledby="menu-title">
+        <header class="section-heading">
+          <div class="heading-with-sprigs"><span class="side-sprig" aria-hidden="true">❧</span><h2 id="menu-title">I Nostri Piatti Signature</h2><span class="side-sprig mirror" aria-hidden="true">❧</span></div>
+          <p>SEASONAL ITALIAN FAVORITES FROM OUR KITCHEN</p>
+        </header>
+        <div class="dish-grid">
+          <article class="dish-card">
+            <div class="dish-image"><img src="assets/dish-pappardelle.jpg" alt="Pappardelle pasta with slow-braised beef ragù" loading="lazy"></div>
+            <h3>Pappardelle al Ragù</h3>
+            <p>SLOW-BRAISED BEEF, RED WINE,<br>AND PARMIGIANO</p>
+          </article>
+          <article class="dish-card">
+            <div class="dish-image"><img src="assets/dish-burrata.jpg" alt="Burrata cheese with ripe tomatoes and basil" loading="lazy"></div>
+            <h3>Burrata del Casale</h3>
+            <p>CREAMY BURRATA, HEIRLOOM<br>TOMATOES, AND BASIL</p>
+          </article>
+          <article class="dish-card">
+            <div class="dish-image"><img src="assets/dish-tagliata.jpg" alt="Sliced grilled beef with arugula and parmesan" loading="lazy"></div>
+            <h3>Tagliata di Manzo</h3>
+            <p>GRILLED BEEF, ARUGULA,<br>AND AGED BALSAMICO</p>
+          </article>
+          <article class="dish-card">
+            <div class="dish-image"><img src="assets/dish-tiramisu.jpg" alt="Traditional layered tiramisu on a ceramic plate" loading="lazy"></div>
+            <h3>Tiramisù della Casa</h3>
+            <p>A CLASSIC, THE WAY<br>NONNA MADE IT</p>
+          </article>
+        </div>
+        <button type="button" class="text-link menu-more" data-modal="full-menu">Explore the menu <span aria-hidden="true">→</span></button>
+      </section>
+
+      <section class="story-block section-paper" id="our-story" aria-labelledby="story-title">
+        <aside class="specials-note" aria-labelledby="specials-title">
+          <div class="paper-clip" aria-hidden="true"></div>
+          <h2 id="specials-title">Speciali di Oggi</h2>
+          <div class="special-item"><div class="special-line"><h3>Fiori di Zucca Ripieni</h3><span>16</span></div><p>Stuffed squash blossoms,<br>ricotta &amp; lemon</p></div>
+          <div class="special-item"><div class="special-line"><h3>Risotto ai Funghi</h3><span>28</span></div><p>Carnaroli, wild mushrooms,<br>Parmigiano, truffle oil</p></div>
+          <div class="special-item"><div class="special-line"><h3>Branzino al Forno</h3><span>32</span></div><p>Mediterranean sea bass,<br>roasted tomatoes &amp; olives</p></div>
+          <img src="assets/olive-sprig.svg" class="special-sprig" alt="">
+        </aside>
+        <div class="family-story">
+          <div class="story-intro">
+            <div class="story-prose">
+              <h2 id="story-title">Our Family’s Story</h2>
+              <div class="subheading-line"><span>THREE GENERATIONS, ONE TABLE</span><span class="rule"></span></div>
+              <p>Osteria Verde began as a family dream, a way to bring the flavors, warmth, and togetherness of our Italian roots to this neighborhood we now call home.</p>
+            </div>
+            <figure class="family-photo"><img src="assets/family-photo.jpg" alt="Vintage sepia family portrait of three generations at their restaurant" loading="lazy"><figcaption class="sr-only">A family tradition, carried from one generation to the next.</figcaption></figure>
+          </div>
+          <div class="timeline" aria-label="Our family timeline">
+            <article class="timeline-item"><img src="assets/heritage-villa.jpg" alt="" loading="lazy"><div class="timeline-mark"></div><h3>1958</h3><p>Nonna Rosa’s kitchen in Tuscany, where it all began.</p></article>
+            <article class="timeline-item"><img src="assets/heritage-pot.jpg" alt="" loading="lazy"><div class="timeline-mark"></div><h3>1984</h3><p>The family recipes travel overseas, keeping our traditions alive.</p></article>
+            <article class="timeline-item"><img src="assets/heritage-olive.jpg" alt="" loading="lazy"><div class="timeline-mark"></div><h3>2010</h3><p>Osteria Verde opens its doors, a tribute to our family, our land, and the Italian table.</p></article>
+            <article class="timeline-item"><img src="assets/heritage-osteria.jpg" alt="" loading="lazy"><div class="timeline-mark"></div><h3>Today</h3><p>Still family-run, still cooking with heart, and still welcoming you come a tavola.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="wine-section" id="wine" aria-labelledby="wine-title">
+        <div class="wine-image"><img src="assets/wine-still-life.jpg" alt="Italian red wine with a glass, grapes and cheese" loading="lazy"></div>
+        <div class="wine-copy"><h2 id="wine-title">Wine &amp; Pairings</h2><p class="eyebrow">ITALIAN WINES, THOUGHTFULLY PAIRED</p><p>From rolling Tuscan reds to crisp Venetian whites, our wine list celebrates the regions and traditions that inspire our cucina.</p><button type="button" class="button button-olive" data-modal="wine">Explore Wine &amp; Pairings <span aria-hidden="true">→</span></button></div>
+        <div class="hills-image"><img src="assets/italian-hills.jpg" alt="Watercolor landscape of Tuscan hills and an Italian villa" loading="lazy"></div>
+      </section>
+
+      <section class="testimonials section-paper" aria-labelledby="guests-title">
+        <header class="section-heading"><div class="heading-with-sprigs"><span class="side-sprig" aria-hidden="true">❧</span><h2 id="guests-title">Parole dei Nostri Ospiti</h2><span class="side-sprig mirror" aria-hidden="true">❧</span></div><p>WORDS FROM OUR TABLE</p></header>
+        <img class="village-painting" src="assets/italian-village.jpg" alt="" loading="lazy">
+        <div class="quote-grid">
+          <blockquote><p>“A truly special place. The food is extraordinary, but it’s the warmth that keeps us coming back.”</p><footer>— Elena M.</footer></blockquote>
+          <blockquote><p>“It feels like a trip to Italy without leaving the city. Romantic, welcoming, and absolutely delicious.”</p><footer>— James &amp; Laura P. ♡</footer></blockquote>
+          <blockquote><p>“Osteria Verde is more than a restaurant, it’s a story, a family, and a taste of home.”</p><footer>— Marco D.</footer></blockquote>
+        </div>
+        <img class="lemon-painting" src="assets/lemon-tree.jpg" alt="" loading="lazy">
+      </section>
+
+      <section class="reservation-banner" aria-labelledby="join-title">
+        <div class="banner-image"><img src="assets/romantic-table.jpg" alt="Intimate candlelit table set for dinner"></div>
+        <div class="banner-content"><h2 id="join-title">Join Us at the Table</h2><img src="assets/divider.svg" alt="" class="banner-ornament"><p>Reserve your seat and be part of our story.<br>A meal of good food, fine wine, and even better company awaits at Osteria Verde.</p><button type="button" class="button button-red reserve-bottom" data-modal="reservations">Reserve a Table <span aria-hidden="true">→</span></button></div>
+        <img class="banner-leaf" src="assets/olive-sprig.svg" alt="">
+      </section>
+    </main>
+    <footer class="site-footer"><a class="footer-brand" href="#top">Osteria Verde</a><span>CUCINA ITALIANA · FATTO CON AMORE</span><span>Website showroom concept · Demonstration only</span><a href="#top" class="back-to-top">Back to top ↑</a></footer>
+  </div>
+
+  <div class="modal" id="dialog-full-menu" role="dialog" aria-modal="true" aria-labelledby="menu-dialog-title" hidden>
+    <div class="modal-scrim" data-close-modal></div>
+    <div class="modal-panel modal-menu" role="document"><button type="button" class="modal-close" aria-label="Close menu" data-close-modal>×</button><p class="eyebrow">DALLA NOSTRA CUCINA</p><h2 id="menu-dialog-title">The Osteria Menu</h2><p class="modal-intro">A little taste of the Italian table, prepared with care.</p>
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories"><button type="button" class="active" role="tab" aria-selected="true" data-menu-tab="antipasti">Antipasti</button><button type="button" role="tab" aria-selected="false" data-menu-tab="primi">Primi</button><button type="button" role="tab" aria-selected="false" data-menu-tab="secondi">Secondi</button><button type="button" role="tab" aria-selected="false" data-menu-tab="dolci">Dolci</button></div>
+      <div class="menu-items" id="menu-items" aria-live="polite"></div><p class="modal-footnote">Example offerings for this showroom concept. Menus and availability may change.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="dialog-wine" role="dialog" aria-modal="true" aria-labelledby="wine-dialog-title" hidden>
+    <div class="modal-scrim" data-close-modal></div><div class="modal-panel wine-dialog" role="document"><button type="button" class="modal-close" aria-label="Close wine pairings" data-close-modal>×</button><p class="eyebrow">UN CALICE DI ITALIA</p><h2 id="wine-dialog-title">A Wine for Every Table</h2><p class="modal-intro">Follow the flavors of Italy, from the rolling Tuscan hills to the Venetian coast.</p><div class="pairing-list"><article><span class="pairing-region">TOSCANA · ROSSO</span><h3>Chianti Classico</h3><p>Bright cherry, herbs and a lingering savory finish.</p><strong>Beautiful with Pappardelle al Ragù</strong></article><article><span class="pairing-region">VENETO · BIANCO</span><h3>Soave Classico</h3><p>Fresh citrus, white blossoms and a delicate mineral note.</p><strong>Beautiful with Burrata del Casale</strong></article><article><span class="pairing-region">PIEMONTE · ROSSO</span><h3>Barbera d’Asti</h3><p>Vibrant dark fruit with a food-friendly freshness.</p><strong>Beautiful with Tagliata di Manzo</strong></article></div><p class="modal-footnote">Illustrative pairings for the showroom demonstration.</p></div>
+  </div>
+
+  <div class="modal" id="dialog-private" role="dialog" aria-modal="true" aria-labelledby="private-dialog-title" hidden>
+    <div class="modal-scrim" data-close-modal></div><div class="modal-panel private-dialog" role="document"><button type="button" class="modal-close" aria-label="Close private dining" data-close-modal>×</button><p class="eyebrow">CELEBRATE TOGETHER</p><h2 id="private-dialog-title">A Table Just for You</h2><p class="modal-intro">Long lunches, family celebrations, and evenings worth remembering. Our private-dining experience is designed around the joy of gathering.</p><div class="private-feature"><img src="assets/hero-osteria.jpg" alt="Warm and welcoming dining room"><div><h3>Gather around our table</h3><p>Imagine a relaxed evening with shared courses, thoughtfully paired wines, and the easy warmth of an Italian family meal.</p><p class="private-small">This is a concept demonstration. No real event inquiry is sent.</p><button type="button" class="button button-olive" data-switch-modal="reservations">Explore a date <span aria-hidden="true">→</span></button></div></div></div>
+  </div>
+
+  <div class="modal" id="dialog-reservations" role="dialog" aria-modal="true" aria-labelledby="reservation-dialog-title" hidden>
+    <div class="modal-scrim" data-close-modal></div><div class="modal-panel reservation-dialog" role="document"><button type="button" class="modal-close" aria-label="Close reservations" data-close-modal>×</button><p class="eyebrow">UN POSTO A TAVOLA</p><h2 id="reservation-dialog-title">Your Table Awaits</h2><p class="modal-intro">Plan a lovely evening at Osteria Verde.</p><form id="reservation-form"><div class="form-grid"><label>Date<input id="reservation-date" name="date" type="date" required></label><label>Time<select name="time" required><option value="">Select time</option><option>5:00 PM</option><option>5:30 PM</option><option>6:00 PM</option><option>6:30 PM</option><option>7:00 PM</option><option>7:30 PM</option><option>8:00 PM</option><option>8:30 PM</option><option>9:00 PM</option></select></label><label>Guests<select name="guests" required><option value="">Party size</option><option>1 guest</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6 guests</option><option>7 guests</option><option>8 guests</option></select></label><label>Name<input name="name" autocomplete="name" placeholder="Your name" required maxlength="90"></label></div><label class="special-requests">Special requests <span>(optional)</span><textarea name="notes" rows="2" maxlength="240" placeholder="An occasion, a preferred table, or a little note..."></textarea></label><button type="submit" class="button button-red form-button">Preview Your Request →</button></form><div class="reservation-result" id="reservation-result" aria-live="polite" hidden><h3>Here’s your evening</h3><p id="reservation-summary"></p><p class="demo-notice">This is a showroom demonstration. No reservation was placed or sent to a restaurant.</p><button type="button" class="button button-olive" id="edit-request">Edit details</button></div><p class="modal-footnote">Interactive website demo only. Times shown are examples, not live availability.</p></div>
+  </div>
+</body>
+</html>

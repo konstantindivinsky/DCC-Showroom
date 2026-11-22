@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17384b">
+  <meta name="description" content="Riverstone Home Remodeling, a sample remodeling website concept featuring thoughtful renovations, kitchens, bathrooms, additions, and whole-home transformations.">
+  <title>Riverstone Home Remodeling | Thoughtful Remodels for the Home You Love</title>
+  <link rel="preload" href="assets/hero-background.jpg" as="image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="icons" aria-hidden="true">
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 14h2M13 14h2M8 18h2M13 18h2"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 3.5 6v6c0 5 3.6 8.3 8.5 10 4.9-1.7 8.5-5 8.5-10V6L12 2Z"/><path d="m8 12 2.7 2.7 5.3-5.4"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2.5 20v-2.5a6.5 6.5 0 0 1 13 0V20H2.5Zm13 0h6v-2a5 5 0 0 0-5-5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.1 6.4 7.1 1-5.1 5 .9 7-6-3.4-6 3.4.9-7-5.1-5 7.1-1L12 2Z"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8 14-2 8 6-3 6 3-2-8"/><path d="m9.5 9 1.7 1.8 3.4-3.6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5.1-8 12-8 12S4 15.1 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.5 2h3l1.2 5.5-2.3 2.2a17 17 0 0 0 6 6l2.2-2.3L22 14.5v3c0 2.5-2 4.5-4.5 4.5C9 22 2 15 2 6.5 2 4 4 2 6.5 2Z"/></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="header-inner shell">
+      <a class="brand" href="#top" aria-label="Riverstone Home Remodeling, home">
+        <svg class="brand-mark" viewBox="0 0 110 52" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="9" stroke-linejoin="miter" d="M6 30 54 4l50 27M22 24V8h13v8M89 23V8h13v22"/><path fill="currentColor" d="M45 27h8v8h-8zm12 0h8v8h-8zM45 39h8v8h-8zm12 0h8v8h-8z"/></svg>
+        <span class="brand-name">RIVERSTONE</span>
+        <span class="brand-subtitle">HOME REMODELING</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-toggle" aria-expanded="false" aria-controls="services-menu">Remodeling Services <svg class="icon"><use href="#i-chevron"/></svg></button>
+          <div class="nav-drop-panel" id="services-menu">
+            <a href="#services" data-service-target="Kitchen Remodeling">Kitchen Remodeling</a>
+            <a href="#services" data-service-target="Bathroom Renovations">Bathroom Renovations</a>
+            <a href="#services" data-service-target="Home Additions">Home Additions</a>
+            <a href="#services" data-service-target="Basements & Living Spaces">Basements & Living Spaces</a>
+            <a href="#services" data-service-target="Whole-Home Remodels">Whole-Home Remodels</a>
+          </div>
+        </div>
+        <a href="#process">Our Process</a>
+        <a href="#projects">Projects</a>
+        <a href="#team">Our Team</a>
+        <a href="#service-area">Service Area</a>
+      </nav>
+      <button class="btn btn-gold header-cta open-project" type="button"><svg class="icon"><use href="#i-calendar"/></svg><span>Plan Your Project</span><svg class="icon arrow"><use href="#i-arrow"/></svg></button>
+      <button class="mobile-nav-toggle" type="button" aria-controls="mobile-nav" aria-expanded="false" aria-label="Open navigation"><svg class="icon"><use href="#i-menu"/></svg></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#services">Remodeling Services</a><a href="#process">Our Process</a><a href="#projects">Projects</a><a href="#team">Our Team</a><a href="#service-area">Service Area</a>
+      <button class="btn btn-gold open-project" type="button"><svg class="icon"><use href="#i-calendar"/></svg> Plan Your Project <svg class="icon arrow"><use href="#i-arrow"/></svg></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content shell">
+        <div class="hero-copy">
+          <p class="hero-intro">Where craftsmanship meets home</p>
+          <h1 id="hero-title">Thoughtful Remodels<br>for <em>the Home You Love</em></h1>
+          <p class="hero-description">A trusted local remodeling team that makes the process simple, the craftsmanship last, and your home work better for life.</p>
+          <button class="btn btn-gold btn-hero open-project" type="button"><svg class="icon"><use href="#i-calendar"/></svg>Plan Your Project <svg class="icon arrow"><use href="#i-arrow"/></svg></button>
+          <ul class="trust-list" aria-label="Why homeowners choose Riverstone">
+            <li><svg class="icon"><use href="#i-check"/></svg> Local &amp; Insured</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> Experienced Craftsmanship</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> Clear Process</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section" id="process" aria-labelledby="process-title">
+      <div class="shell process-inner">
+        <div class="section-heading process-heading"><span class="heading-line"></span><h2 id="process-title">Our Remodeling Process</h2><span class="heading-line"></span></div>
+        <p class="eyebrow process-eyebrow">A CLEAR, COLLABORATIVE JOURNEY FROM IDEA TO COMPLETION</p>
+        <div class="process-grid">
+          <article class="process-step"><img class="process-photo" src="assets/process-plan.jpg" alt="Remodeling plans and construction drawings" loading="lazy"><div class="step-copy"><h3>Plan<br>Together</h3><p>Share your goals, explore options, and get a clear, upfront estimate.</p></div></article>
+          <article class="process-step"><img class="process-photo" src="assets/process-build.jpg" alt="A home taking shape through careful framing" loading="lazy"><div class="step-copy"><h3>Build<br>with Care</h3><p>Our experienced team brings your plan to life with quality and respect for your home.</p></div></article>
+          <article class="process-step"><img class="process-photo" src="assets/process-enjoy.jpg" alt="Beautifully finished light-filled kitchen" loading="lazy"><div class="step-copy"><h3>Enjoy<br>the Results</h3><p>A beautiful, functional space built to last, and a home you'll love even more.</p></div></article>
+        </div>
+        <div class="proof-grid">
+          <div class="compare-card">
+            <div class="before-after" id="comparison" style="--split:50%" aria-label="Before and after kitchen remodel visual comparison">
+              <img class="compare-image compare-after" src="assets/after-kitchen-clean.jpg" alt="Remodeled kitchen with bright cabinetry, warm lighting, and a generous island" loading="lazy">
+              <div class="compare-before-mask"><img class="compare-image compare-before" src="assets/before-kitchen-clean.jpg" alt="Older kitchen before renovation" loading="lazy"></div>
+              
+              <div class="compare-handle" id="comparison-handle" role="slider" tabindex="0" aria-label="Reveal before or after kitchen remodel" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent before photo" aria-orientation="horizontal"><span class="split-left">‹</span><span class="split-right">›</span></div>
+            </div>
+            <p class="compare-hint">Drag the handle to see the transformation</p>
+          </div>
+          <blockquote class="testimonial"><span class="quote-mark" aria-hidden="true">“</span><p>The whole process was smooth, transparent, and incredibly well run. The team was professional, respectful, and the results are better than we imagined.</p><footer><span>The Carter Family</span><span class="review-stars" aria-label="5 out of 5 stars">★★★★★</span></footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Riverstone at a glance"><div class="shell stats-grid">
+      <div class="stat"><svg class="icon"><use href="#i-shield"/></svg><div><strong>15+</strong><span>Years Local Experience</span></div></div>
+      <div class="stat"><svg class="icon"><use href="#i-people"/></svg><div><strong>300+</strong><span>Homes Remodeled</span></div></div>
+      <div class="stat"><svg class="icon"><use href="#i-star"/></svg><div><strong>5.0</strong><span>Average Customer Rating</span></div></div>
+      <div class="stat"><svg class="icon"><use href="#i-award"/></svg><div><strong class="stat-word">Licensed, Insured</strong><span>&amp; Fully Compliant</span></div></div>
+    </div></section>
+
+    <section class="services-section" id="services" aria-labelledby="services-title"><div class="shell services-layout">
+      <div class="services-heading"><h2 id="services-title">Our Remodeling<br>Services</h2></div>
+      <div class="services-slider" aria-label="Remodeling service categories">
+        <button type="button" class="service-card" data-service="Kitchen Remodeling"><img src="assets/service-kitchen.jpg" alt="Renovated kitchen" loading="lazy"><span>Kitchen<br>Remodeling</span></button>
+        <button type="button" class="service-card" data-service="Bathroom Renovations"><img src="assets/service-bathroom.jpg" alt="Fresh bathroom renovation" loading="lazy"><span>Bathroom<br>Renovations</span></button>
+        <button type="button" class="service-card" data-service="Home Additions"><img src="assets/service-addition.jpg" alt="Timber-fronted home addition" loading="lazy"><span>Home<br>Additions</span></button>
+        <button type="button" class="service-card" data-service="Basements & Living Spaces"><img src="assets/service-living.jpg" alt="Inviting finished living room" loading="lazy"><span>Basements<br>&amp; Living Spaces</span></button>
+        <button type="button" class="service-card" data-service="Whole-Home Remodels"><img src="assets/service-whole-home.jpg" alt="Remodeled two-story home" loading="lazy"><span>Whole-Home<br>Remodels</span></button>
+      </div>
+      <div class="service-region" id="service-area"><svg viewBox="0 0 110 112" role="img" aria-label="Illustrated local service area map"><path class="map-outline" d="m11 15 32-11 27 6 23 14-5 19 11 19-17 29-27 14-22-17-17-6-7-30 9-20Z"/><path class="map-road" d="M16 40q22 6 36-9t38 2M24 78q27-14 38-6t27-16M43 7q-2 35 19 48t-4 43"/><path class="map-road" d="M16 18q40 18 71 49M38 90l3-45"/><path class="map-pin" d="M78 24a13 13 0 0 0-13 13c0 9 13 25 13 25s13-16 13-25a13 13 0 0 0-13-13Zm0 18a5 5 0 1 1 0-10 5 5 0 0 1 0 10Z"/></svg>
+        <div><h3>Proudly Serving<br>Our Local Communities</h3><p>Riverton <span>·</span> Maple Grove<br>Lakeside <span>·</span> Fairview<br>Cedar Hills <span>·</span> Pinecrest<br>and Surrounding Areas</p></div>
+      </div>
+    </div></section>
+
+    <section class="cta-band" aria-labelledby="cta-title"><div class="shell cta-inner"><div class="cta-text"><p class="eyebrow">READY TO GET STARTED?</p><h2 id="cta-title">Let’s Plan Your Remodeling Project</h2></div><button class="btn btn-gold open-project" type="button"><svg class="icon"><use href="#i-calendar"/></svg> Plan Your Project <svg class="icon arrow"><use href="#i-arrow"/></svg></button></div></section>
+
+    <section class="projects-section below-fold" id="projects" aria-labelledby="projects-title"><div class="shell"><div class="content-heading"><p class="eyebrow">THOUGHTFUL SPACES, LASTING IMPACT</p><h2 id="projects-title">Homes with a Story to Tell</h2><p>From first sketches to those final finishing touches, every transformation starts with understanding how a family lives.</p></div>
+      <div class="project-grid"><article class="project-card"><img src="assets/project-kitchen.jpg" alt="Open, warm kitchen with marble-look island and garden views" loading="lazy"><div class="project-info"><span>Kitchen Remodeling</span><h3>The Heart of the Home</h3><p>A lighter, brighter gathering space designed around everyday life.</p></div></article><article class="project-card"><img src="assets/project-addition.jpg" alt="Warm timber-frame addition on a renovated home" loading="lazy"><div class="project-info"><span>Home Additions</span><h3>Room to Grow</h3><p>Seamless new space that feels like it has always belonged.</p></div></article><article class="project-card"><img src="assets/project-craftsman.jpg" alt="Welcoming two-story home exterior with updated siding and porch" loading="lazy"><div class="project-info"><span>Whole-Home Remodeling</span><h3>A Fresh Welcome</h3><p>Exterior charm and interior comfort, thoughtfully connected.</p></div></article></div>
+    </div></section>
+
+    <section class="team-section below-fold" id="team" aria-labelledby="team-title"><div class="shell team-grid"><div class="team-photo" role="img" aria-label="Riverstone crew pictured in front of a remodeled home"></div><div class="team-copy"><p class="eyebrow">REAL PEOPLE. REAL CRAFTSMANSHIP.</p><h2 id="team-title">A Team That Treats Your Home Like Their Own</h2><p>Great remodeling work starts with trust. Our approach is straightforward: listen first, communicate clearly, show up when we say we will, and take pride in every detail.</p><ul><li><svg class="icon"><use href="#i-check"/></svg>One point of contact from start to finish</li><li><svg class="icon"><use href="#i-check"/></svg>Respectful, tidy job sites</li><li><svg class="icon"><use href="#i-check"/></svg>Careful craftsmanship, without shortcuts</li></ul><button class="text-link open-project" type="button">Tell us about your project <svg class="icon"><use href="#i-arrow"/></svg></button></div></div></section>
+
+    <section class="closing-section below-fold" aria-labelledby="closing-title"><div class="shell closing-inner"><div><p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p><h2 id="closing-title">The home you have. The home you imagine.</h2><p>Let’s explore how they can become one and the same.</p></div><button type="button" class="btn btn-gold open-project"><svg class="icon"><use href="#i-calendar"/></svg> Start the Conversation <svg class="icon arrow"><use href="#i-arrow"/></svg></button></div></section>
+  </main>
+
+  <footer class="footer"><div class="shell footer-layout"><div><a class="brand footer-brand" href="#top" aria-label="Riverstone Home Remodeling, top of page"><svg class="brand-mark" viewBox="0 0 110 52" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="9" d="M6 30 54 4l50 27M22 24V8h13v8M89 23V8h13v22"/><path fill="currentColor" d="M45 27h8v8h-8zm12 0h8v8h-8zM45 39h8v8h-8zm12 0h8v8h-8z"/></svg><span class="brand-name">RIVERSTONE</span><span class="brand-subtitle">HOME REMODELING</span></a><p>Thoughtful remodels for the home you love.</p></div><div class="footer-links"><a href="#process">The Process</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#team">Our Team</a></div><div class="footer-links"><a href="#service-area">Service Area</a><button type="button" class="footer-link-button open-project">Plan Your Project</button><a href="#top">Back to Top ↑</a></div></div><div class="shell footer-bottom"><span>© <span id="year">2026</span> Riverstone Home Remodeling</span><span>Showroom concept website. Example names, service areas, testimonials, and business figures are illustrative.</span></div></footer>
+
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><div class="dialog-layout"><div class="dialog-top"><div><p class="eyebrow">LET’S GET TO KNOW YOUR SPACE</p><h2 id="dialog-title">Plan Your Project</h2><p>A few details help us get the conversation started.</p></div><button type="button" id="close-dialog" class="dialog-close" aria-label="Close project form"><svg class="icon"><use href="#i-x"/></svg></button></div>
+    <form id="project-form"><div class="form-grid"><label>Your name <input name="name" autocomplete="name" required placeholder="Jane Smith"></label><label>Email address <input name="email" type="email" autocomplete="email" required placeholder="jane@example.com"></label><label>Phone <input name="phone" type="tel" autocomplete="tel" placeholder="(555) 555-0123"></label><label>City or neighborhood <input name="city" autocomplete="address-level2" placeholder="Where is your home?"></label><label>Type of project <select name="service" id="form-service" required><option value="" disabled selected>Choose a service</option><option>Kitchen Remodeling</option><option>Bathroom Renovations</option><option>Home Additions</option><option>Basements & Living Spaces</option><option>Whole-Home Remodels</option><option>Something Else</option></select></label><label>When are you hoping to begin? <select name="timeline"><option>Just exploring</option><option>Within 3 months</option><option>3–6 months</option><option>6+ months</option></select></label></div><label class="details-label">Tell us what you're imagining <textarea name="details" rows="4" placeholder="Your goals, ideas, must-haves, and anything else useful…"></textarea></label><p class="form-note">This is an interactive showroom demonstration. Submitting will display your project summary on this device; it will not send personal information.</p><button type="submit" class="btn btn-gold form-submit">Preview My Project Request <svg class="icon arrow"><use href="#i-arrow"/></svg></button></form>
+    <div id="form-result" class="form-result" hidden aria-live="polite"><span class="result-check"><svg class="icon"><use href="#i-check"/></svg></span><h3>Your project request is ready</h3><p>This is a showroom preview. No information has been sent. You can copy the summary below.</p><pre id="project-summary"></pre><div class="result-actions"><button type="button" class="btn btn-navy" id="copy-summary">Copy Summary</button><button type="button" class="btn btn-outline" id="edit-request">Edit Request</button></div><span id="copy-feedback" role="status"></span></div>
+  </div></dialog>
+  <script src="script.js" defer></script>
+</body>
+</html>

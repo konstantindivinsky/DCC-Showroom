@@ -57,7 +57,8 @@
           "ink": "#f5eadb",
           "muted": "#c4ad87",
           "accent": "#c49b55",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#c49b55"
         },
         {
           "name": "Burgundy Velvet",
@@ -66,7 +67,8 @@
           "ink": "#f5e5da",
           "muted": "#d7a9ac",
           "accent": "#e2ba8b",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#e2ba8b"
         },
         {
           "name": "Slate & Silver",
@@ -75,7 +77,8 @@
           "ink": "#eff3f4",
           "muted": "#b3c5cc",
           "accent": "#c9b79e",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#c9b79e"
         },
         {
           "name": "Ivory & Ink",
@@ -84,7 +87,8 @@
           "ink": "#26211d",
           "muted": "#70685a",
           "accent": "#a57f4b",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#876840"
         }
       ],
       "index": 1,
@@ -109,7 +113,8 @@
           "ink": "#4b281f",
           "muted": "#8b5b3c",
           "accent": "#bc4b25",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#b34825"
         },
         {
           "name": "Lemon & Forest",
@@ -118,7 +123,8 @@
           "ink": "#23352b",
           "muted": "#687c4a",
           "accent": "#d9a309",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#7e6c1a"
         },
         {
           "name": "Diner Blue",
@@ -127,7 +133,8 @@
           "ink": "#1d3952",
           "muted": "#55768e",
           "accent": "#1265a2",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#1265a2"
         },
         {
           "name": "Warm Cocoa",
@@ -136,7 +143,8 @@
           "ink": "#3a2522",
           "muted": "#83645a",
           "accent": "#aa512e",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#a14d2d"
         }
       ],
       "index": 2,
@@ -161,7 +169,8 @@
           "ink": "#553023",
           "muted": "#8c7053",
           "accent": "#914d34",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#914d34"
         },
         {
           "name": "Olive & Merlot",
@@ -170,7 +179,8 @@
           "ink": "#243d2f",
           "muted": "#747d56",
           "accent": "#863c35",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#863c35"
         },
         {
           "name": "Midnight Vine",
@@ -179,7 +189,8 @@
           "ink": "#f6e8c9",
           "muted": "#beb7a2",
           "accent": "#bd8d56",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#c2945f"
         },
         {
           "name": "Terracotta",
@@ -188,7 +199,8 @@
           "ink": "#6c2922",
           "muted": "#ac6750",
           "accent": "#ca7a3b",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#a15630"
         }
       ],
       "index": 3,
@@ -213,7 +225,8 @@
           "ink": "#fffaf0",
           "muted": "#ffc6d6",
           "accent": "#ff1e91",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#ff389c"
         },
         {
           "name": "Acid Lime",
@@ -222,7 +235,8 @@
           "ink": "#f7efcf",
           "muted": "#d2dd7e",
           "accent": "#d3ff00",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d3ff00"
         },
         {
           "name": "Cyan Shock",
@@ -231,7 +245,8 @@
           "ink": "#fff",
           "muted": "#91d5e0",
           "accent": "#03e7d8",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#03e7d8"
         },
         {
           "name": "Black & Orange",
@@ -240,7 +255,8 @@
           "ink": "#fff0dd",
           "muted": "#ffab7e",
           "accent": "#ff6818",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#ff7024"
         }
       ],
       "index": 4,
@@ -265,7 +281,8 @@
           "ink": "#17354e",
           "muted": "#6a8996",
           "accent": "#265e80",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#265e80"
         },
         {
           "name": "Sea Glass",
@@ -273,8 +290,9 @@
           "panel": "#fff",
           "ink": "#224d4b",
           "muted": "#6b9188",
-          "accent": "#248b81",
-          "accentText": "#101518"
+          "accent": "#268c82",
+          "accentText": "#101518",
+          "accentInk": "#257a73"
         },
         {
           "name": "Sand & Coral",
@@ -283,7 +301,8 @@
           "ink": "#27414a",
           "muted": "#7c9595",
           "accent": "#db7d64",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#93655a"
         },
         {
           "name": "Blue Hour",
@@ -292,7 +311,8 @@
           "ink": "#edf5f5",
           "muted": "#c5d6df",
           "accent": "#80c0df",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#80c0df"
         }
       ],
       "index": 5,
@@ -317,7 +337,8 @@
           "ink": "#252520",
           "muted": "#716d61",
           "accent": "#b5895d",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#846748"
         },
         {
           "name": "Charcoal & Brass",
@@ -326,7 +347,8 @@
           "ink": "#faf3e7",
           "muted": "#b6ab92",
           "accent": "#d8af67",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d8af67"
         },
         {
           "name": "Stone & Moss",
@@ -335,7 +357,8 @@
           "ink": "#263a31",
           "muted": "#718274",
           "accent": "#7d9166",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#586c50"
         },
         {
           "name": "Blush & Graphite",
@@ -344,7 +367,8 @@
           "ink": "#3b3a3b",
           "muted": "#777274",
           "accent": "#a98987",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#7d6969"
         }
       ],
       "index": 6,
@@ -369,7 +393,8 @@
           "ink": "#fbf0df",
           "muted": "#b9b0a4",
           "accent": "#d6a84d",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d6a84d"
         },
         {
           "name": "Warm Slate",
@@ -378,7 +403,8 @@
           "ink": "#fffaf2",
           "muted": "#b8bfc7",
           "accent": "#e0a967",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#e0a967"
         },
         {
           "name": "Forest & Stone",
@@ -387,7 +413,8 @@
           "ink": "#f9f1de",
           "muted": "#a7c1a9",
           "accent": "#d5b974",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#dac183"
         },
         {
           "name": "Copper & Cream",
@@ -396,7 +423,8 @@
           "ink": "#352b23",
           "muted": "#85786b",
           "accent": "#bb7447",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#95603d"
         }
       ],
       "index": 7,
@@ -421,7 +449,8 @@
           "ink": "#112c3b",
           "muted": "#627d87",
           "accent": "#df7a24",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#9d612b"
         },
         {
           "name": "Pine & Cream",
@@ -430,7 +459,8 @@
           "ink": "#243b2c",
           "muted": "#81927f",
           "accent": "#c09b55",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#786f42"
         },
         {
           "name": "Slate & Copper",
@@ -439,7 +469,8 @@
           "ink": "#323e47",
           "muted": "#8c9597",
           "accent": "#bf784a",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#8c6349"
         },
         {
           "name": "Blue & Mint",
@@ -448,7 +479,8 @@
           "ink": "#1c4860",
           "muted": "#80a7a9",
           "accent": "#2fa2a9",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#277a89"
         }
       ],
       "index": 8,
@@ -473,7 +505,8 @@
           "ink": "#f7ead0",
           "muted": "#c1b392",
           "accent": "#d2a35b",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d2a35b"
         },
         {
           "name": "Ink & Parchment",
@@ -482,7 +515,8 @@
           "ink": "#262b2a",
           "muted": "#82736b",
           "accent": "#ad8752",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#746041"
         },
         {
           "name": "Oxford Blue",
@@ -491,7 +525,8 @@
           "ink": "#fff4df",
           "muted": "#b7bbc6",
           "accent": "#bc995a",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#cdb17d"
         },
         {
           "name": "Sepia & Brass",
@@ -500,7 +535,8 @@
           "ink": "#513d2f",
           "muted": "#8d7162",
           "accent": "#b48b4e",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#775b3b"
         }
       ],
       "index": 9,
@@ -525,7 +561,8 @@
           "ink": "#203f50",
           "muted": "#758b90",
           "accent": "#c99b4e",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#786f4f"
         },
         {
           "name": "Olive & Cream",
@@ -534,7 +571,8 @@
           "ink": "#344634",
           "muted": "#7f9278",
           "accent": "#c09c6c",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#746e4e"
         },
         {
           "name": "Graphite & Gold",
@@ -543,7 +581,8 @@
           "ink": "#fbf3e7",
           "muted": "#b7bab6",
           "accent": "#d8ae69",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d8ae69"
         },
         {
           "name": "Warm Brick",
@@ -552,7 +591,8 @@
           "ink": "#5c3732",
           "muted": "#a98075",
           "accent": "#bb7f57",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#915f47"
         }
       ],
       "index": 10,
@@ -577,7 +617,8 @@
           "ink": "#eff5fa",
           "muted": "#a6c2d1",
           "accent": "#ffd500",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#ffd500"
         },
         {
           "name": "Industrial Cyan",
@@ -586,7 +627,8 @@
           "ink": "#edf8f8",
           "muted": "#b5d3d8",
           "accent": "#08d6d6",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#08d6d6"
         },
         {
           "name": "Signal Orange",
@@ -595,7 +637,8 @@
           "ink": "#f5f6f6",
           "muted": "#aebbc4",
           "accent": "#ff8c1a",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#ff8c1a"
         },
         {
           "name": "White & Cobalt",
@@ -604,7 +647,8 @@
           "ink": "#133c63",
           "muted": "#7a92a3",
           "accent": "#2772c1",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#2772c1"
         }
       ],
       "index": 11,
@@ -629,7 +673,8 @@
           "ink": "#f6e7cd",
           "muted": "#c3a98c",
           "accent": "#e87822",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#e87822"
         },
         {
           "name": "Aged Brass",
@@ -638,7 +683,8 @@
           "ink": "#f0e9d9",
           "muted": "#b9ad99",
           "accent": "#c6a76b",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#c6a76b"
         },
         {
           "name": "Steel & Cream",
@@ -647,7 +693,8 @@
           "ink": "#1a2227",
           "muted": "#59656a",
           "accent": "#d36f33",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#854f2e"
         },
         {
           "name": "Crimson & Graphite",
@@ -656,7 +703,8 @@
           "ink": "#f2e3d3",
           "muted": "#c1a8a3",
           "accent": "#c53d32",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#d5796c"
         }
       ],
       "index": 12,
@@ -681,7 +729,8 @@
           "ink": "#fff",
           "muted": "#b1c9d5",
           "accent": "#ffdb25",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#ffdb25"
         },
         {
           "name": "Cobalt & White",
@@ -690,7 +739,8 @@
           "ink": "#133a62",
           "muted": "#6e90af",
           "accent": "#1273c9",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#1270c3"
         },
         {
           "name": "Graphite & Mint",
@@ -699,7 +749,8 @@
           "ink": "#f5f9f7",
           "muted": "#b6cbc5",
           "accent": "#6dd8ac",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#6dd8ac"
         },
         {
           "name": "Brick & Cream",
@@ -707,8 +758,9 @@
           "panel": "#fff",
           "ink": "#4b3429",
           "muted": "#9e806c",
-          "accent": "#ce5440",
-          "accentText": "#101518"
+          "accent": "#cf5946",
+          "accentText": "#101518",
+          "accentInk": "#b55240"
         }
       ],
       "index": 13,
@@ -733,7 +785,8 @@
           "ink": "#13334e",
           "muted": "#718ba1",
           "accent": "#1375d1",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#1371c9"
         },
         {
           "name": "Dark Lab",
@@ -742,7 +795,8 @@
           "ink": "#e8f5ff",
           "muted": "#a5c1db",
           "accent": "#19c0e9",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#19c0e9"
         },
         {
           "name": "Cyan & Slate",
@@ -751,7 +805,8 @@
           "ink": "#233540",
           "muted": "#657d8c",
           "accent": "#13a7c0",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#1a7385"
         },
         {
           "name": "Steel & Lime",
@@ -760,7 +815,8 @@
           "ink": "#f2f9e9",
           "muted": "#b5c3b3",
           "accent": "#9be122",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#9be122"
         }
       ],
       "index": 14,
@@ -784,8 +840,9 @@
           "panel": "#1c2024",
           "ink": "#fff",
           "muted": "#a8adb4",
-          "accent": "#f7192b",
-          "accentText": "#101518"
+          "accent": "#f71b2d",
+          "accentText": "#101518",
+          "accentInk": "#f83f4f"
         },
         {
           "name": "Acid Lime",
@@ -794,7 +851,8 @@
           "ink": "#f4fff0",
           "muted": "#a2c3a0",
           "accent": "#a0f000",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#a0f000"
         },
         {
           "name": "Carbon & Copper",
@@ -803,7 +861,8 @@
           "ink": "#fff4e9",
           "muted": "#c9c1b3",
           "accent": "#d98b41",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d98b41"
         },
         {
           "name": "Electric Blue",
@@ -812,7 +871,8 @@
           "ink": "#f2f8ff",
           "muted": "#a7bfde",
           "accent": "#3484ef",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#5e9ef3"
         }
       ],
       "index": 15,
@@ -837,7 +897,8 @@
           "ink": "#fcf5e9",
           "muted": "#bdc5ca",
           "accent": "#d3ad69",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d3ad69"
         },
         {
           "name": "Charcoal & Silver",
@@ -846,7 +907,8 @@
           "ink": "#f7f7f7",
           "muted": "#bbc0c5",
           "accent": "#c1c5cd",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#c1c5cd"
         },
         {
           "name": "Forest & Cream",
@@ -855,7 +917,8 @@
           "ink": "#fbf4e7",
           "muted": "#c4c7b4",
           "accent": "#bea66a",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#c2ab72"
         },
         {
           "name": "Burgundy & Brass",
@@ -864,7 +927,8 @@
           "ink": "#fbecdf",
           "muted": "#c4acb8",
           "accent": "#ca9d65",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#ca9d65"
         }
       ],
       "index": 16,
@@ -889,7 +953,8 @@
           "ink": "#234734",
           "muted": "#718f7b",
           "accent": "#79976d",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#577756"
         },
         {
           "name": "Blue & Linen",
@@ -898,7 +963,8 @@
           "ink": "#28455e",
           "muted": "#7f9ba7",
           "accent": "#4876a5",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#4774a2"
         },
         {
           "name": "Plum & Sand",
@@ -907,7 +973,8 @@
           "ink": "#4b2c54",
           "muted": "#ae91ae",
           "accent": "#8b5197",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#8b5197"
         },
         {
           "name": "Terracotta & Cream",
@@ -916,7 +983,8 @@
           "ink": "#593c30",
           "muted": "#a68b7b",
           "accent": "#ce8861",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#946249"
         }
       ],
       "index": 17,
@@ -941,7 +1009,8 @@
           "ink": "#f5ffff",
           "muted": "#9bc6ca",
           "accent": "#3ff0bf",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#3ff0bf"
         },
         {
           "name": "Graphite & Cyan",
@@ -950,7 +1019,8 @@
           "ink": "#ecf9ff",
           "muted": "#9bbad1",
           "accent": "#27cafa",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#27cafa"
         },
         {
           "name": "Navy & Violet",
@@ -959,7 +1029,8 @@
           "ink": "#f7f2ff",
           "muted": "#c7b7e5",
           "accent": "#9f80fe",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#9f80fe"
         },
         {
           "name": "Black & Lime",
@@ -968,7 +1039,8 @@
           "ink": "#f2fff2",
           "muted": "#b5d9b0",
           "accent": "#93f20d",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#93f20d"
         }
       ],
       "index": 18,
@@ -993,7 +1065,8 @@
           "ink": "#fff5ef",
           "muted": "#e6b6ca",
           "accent": "#ff756c",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#ff756c"
         },
         {
           "name": "Ink & Lemon",
@@ -1002,7 +1075,8 @@
           "ink": "#fbf4cf",
           "muted": "#d5cca9",
           "accent": "#ffe145",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#ffe145"
         },
         {
           "name": "Cream & Cobalt",
@@ -1011,7 +1085,8 @@
           "ink": "#183a5a",
           "muted": "#9abdd8",
           "accent": "#2855eb",
-          "accentText": "#101518"
+          "accentText": "#ffffff",
+          "accentInk": "#2855eb"
         },
         {
           "name": "Berry & Sand",
@@ -1020,7 +1095,8 @@
           "ink": "#fff2e6",
           "muted": "#e1b0a5",
           "accent": "#d99887",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#e1aa9a"
         }
       ],
       "index": 19,
@@ -1045,7 +1121,8 @@
           "ink": "#fff8e9",
           "muted": "#d1c2a9",
           "accent": "#c5a15a",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#caa865"
         },
         {
           "name": "Navy & Stone",
@@ -1054,7 +1131,8 @@
           "ink": "#f8f5ec",
           "muted": "#bfcbd4",
           "accent": "#c1a16b",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#c4a673"
         },
         {
           "name": "Black & Ivory",
@@ -1063,7 +1141,8 @@
           "ink": "#fffdf3",
           "muted": "#c9c6bd",
           "accent": "#d3b87a",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d3b87a"
         },
         {
           "name": "Burgundy & Cream",
@@ -1072,7 +1151,8 @@
           "ink": "#fff5e7",
           "muted": "#d6b9af",
           "accent": "#d0a469",
-          "accentText": "#101518"
+          "accentText": "#101518",
+          "accentInk": "#d0a469"
         }
       ],
       "index": 20,

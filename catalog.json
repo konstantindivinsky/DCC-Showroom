@@ -216,7 +216,6 @@
       "layout": "poster",
       "board": "assets/boards/r04-taco-riot.webp",
       "hero": "assets/hero/r04-taco-riot.webp",
-      "detail": "assets/detail/r04-taco-riot.webp",
       "palettes": [
         {
           "name": "Electric Pink",
@@ -608,7 +607,6 @@
       "layout": "fleet",
       "board": "assets/boards/g01-fleetline.webp",
       "hero": "assets/hero/g01-fleetline.webp",
-      "detail": "assets/detail/g01-fleetline.webp",
       "palettes": [
         {
           "name": "Safety Yellow",
@@ -720,7 +718,6 @@
       "layout": "service",
       "board": "assets/boards/g03-harbor-auto.webp",
       "hero": "assets/hero/g03-harbor-auto.webp",
-      "detail": "assets/detail/g03-harbor-auto.webp",
       "palettes": [
         {
           "name": "Navy & Yellow",
@@ -776,7 +773,6 @@
       "layout": "diagnostics",
       "board": "assets/boards/g04-precision-diagnostics.webp",
       "hero": "assets/hero/g04-precision-diagnostics.webp",
-      "detail": "assets/detail/g04-precision-diagnostics.webp",
       "palettes": [
         {
           "name": "Cobalt & Ice",
@@ -888,7 +884,6 @@
       "layout": "executive",
       "board": "assets/boards/p01-jack-miller.webp",
       "hero": "assets/hero/p01-jack-miller.webp",
-      "detail": "assets/detail/p01-jack-miller.webp",
       "palettes": [
         {
           "name": "Navy & Gold",
@@ -1000,7 +995,6 @@
       "layout": "tech",
       "board": "assets/boards/p03-john-davis.webp",
       "hero": "assets/hero/p03-john-davis.webp",
-      "detail": "assets/detail/p03-john-davis.webp",
       "palettes": [
         {
           "name": "Midnight & Mint",
@@ -1112,7 +1106,6 @@
       "layout": "counsel",
       "board": "assets/boards/p05-steve-carter.webp",
       "hero": "assets/hero/p05-steve-carter.webp",
-      "detail": "assets/detail/p05-steve-carter.webp",
       "palettes": [
         {
           "name": "Forest & Brass",

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#171617" />
+  <meta name="description" content="Taco Riot: street-style tacos, bold flavors, and a whole lotta good vibes. An interactive design concept." />
+  <title>Taco Riot | Tacos. Music. People. Riot!</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell" id="top">
+    <header class="topbar" id="site-header">
+      <a class="brand" href="#top" aria-label="Taco Riot home">
+        <svg class="brand-crown" viewBox="0 0 110 76" aria-hidden="true"><path d="M8 56 5 13l28 22L54 5l19 30 29-23-8 44Z" stroke-linejoin="round" /><path d="M9 68h85" /></svg>
+        <span class="brand-taco">TACO</span><span class="brand-riot">RIOT<span class="brand-splat">.</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation" id="main-nav">
+        <a class="current" href="#full-menu" data-nav>MENU</a>
+        <button type="button" class="nav-link" data-open-order>ORDER ONLINE</button>
+        <a href="#events" data-nav>EVENTS</a>
+        <button type="button" class="nav-link" data-open-merch>MERCH</button>
+        <a href="#our-story" data-nav>OUR STORY</a>
+        <a href="#locations" data-nav>LOCATIONS <span aria-hidden="true">♧</span></a>
+      </nav>
+      <div class="header-actions">
+        <button class="cart-trigger" type="button" data-open-cart aria-label="Open shopping cart, 0 items">
+          <svg viewBox="0 0 40 38" aria-hidden="true"><path d="M2 4h5l5 23h20l5-17H9M13 32a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8Zm17 0a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8Z" /></svg><span class="cart-count" id="cart-count">0</span>
+        </button>
+        <button class="mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="graffiti-rail rail-left" aria-hidden="true">✳︎ ✦ ◢ ✳︎</div>
+        <div class="hero-photo">
+          <img src="assets/hero-tacos.webp" alt="Three loaded street tacos with cilantro, pickled onions and fresh lime" fetchpriority="high" />
+          <span class="photo-crown" aria-hidden="true">♛</span>
+        </div>
+        <div class="hero-paper ripped-yellow">
+          <p class="eyebrow hero-eyebrow">LOUD FOOD. GOOD PEOPLE.</p>
+          <h1 id="hero-heading" class="paint-headline"><span>TACOS</span><span>MUSIC</span><span>PEOPLE</span><em>RIOT<span>!</span></em></h1>
+          <p class="hero-description">STREET-STYLE TACOS,<br />BOLD FLAVORS, AND<br />A WHOLE LOTTA GOOD VIBES.</p>
+          <svg class="hero-arrow" viewBox="0 0 86 86" aria-hidden="true"><path d="M10 50C26 35 39 38 59 52m-7-18 9 19-20 1" /><path d="M18 18 8 2M33 20 30 4" /></svg>
+        </div>
+        <div class="wrestler-sticker" aria-hidden="true"><img src="assets/masked-rioter.svg" alt="" /></div>
+        <div class="street-sticker"><span>STREET</span><span>FOOD</span><span>ALL DAY!</span><b aria-hidden="true">✦</b></div>
+      </section>
+
+      <section class="collage-grid" aria-label="Explore Taco Riot">
+        <div class="menu-poster paper-panel" id="menu-preview">
+          <div class="black-brush menu-heading"><span>THE<br />MENU</span><span class="pink-arrow" aria-hidden="true">➜</span></div>
+          <div class="menu-category-list">
+            <button data-category="tacos"><span class="category-doodle" aria-hidden="true">◡</span>TACOS<span class="category-arrow">➜</span></button>
+            <button data-category="burritos"><span class="category-doodle" aria-hidden="true">▤</span>BURRITOS<span class="category-arrow">➜</span></button>
+            <button data-category="quesadillas"><span class="category-doodle" aria-hidden="true">◭</span>QUESADILLAS<span class="category-arrow">➜</span></button>
+            <button data-category="bowls"><span class="category-doodle" aria-hidden="true">◉</span>BOWLS<span class="category-arrow">➜</span></button>
+            <button data-category="sides"><span class="category-doodle" aria-hidden="true">♧</span>SIDES<span class="category-arrow">➜</span></button>
+            <button data-category="drinks"><span class="category-doodle" aria-hidden="true">▣</span>DRINKS<span class="category-arrow">➜</span></button>
+          </div>
+          <span class="tape tape-menu" aria-hidden="true"></span>
+        </div>
+
+        <div class="combo-feature">
+          <div class="aqua-brush"><span>RIOT<br />COMBO</span><svg viewBox="0 0 60 55" aria-hidden="true"><path d="M5 43V14L20 31 30 4l13 27 12-17v29Z" /></svg></div>
+          <img src="assets/riot-combo.webp" alt="Taco Riot combo with tacos, loaded fries and a pink drink" loading="lazy" />
+          <p class="combo-caption">2 TACOS +<br />CALI FRIES +<br />DRINK</p>
+          <button class="price-splash" type="button" data-add-combo aria-label="Add Riot Combo for 14 dollars and 99 cents">$14<sup>99</sup></button>
+          <svg class="combo-arrow" viewBox="0 0 90 60" aria-hidden="true"><path d="M5 7C26 47 47 54 74 30m-1 17 4-19-18 2" /></svg>
+        </div>
+
+        <div class="events-poster paper-panel">
+          <div class="events-topline"><h2 class="black-brush events-heading"><span>RIOT<br />EVENTS</span></h2><svg class="calendar-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="10" width="38" height="33" rx="2"/><path d="M14 4v13M34 4v13M5 20h38M14 27h5m7 0h5m-17 9h5m7 0h5"/></svg></div>
+          <ul class="event-snippets">
+            <li><time>FRI<br /><b>JAN 24</b></time><span class="mini-icon">◉</span><div><strong>DJ TACO NIGHT</strong><small>Live sets + late bites</small></div><b>8PM</b></li>
+            <li><time>SAT<br /><b>JAN 25</b></time><span class="mini-icon">♜</span><div><strong>TACO EATING SHOWDOWN</strong><small>Think you can handle it?</small></div><b>6PM</b></li>
+            <li><time>THU<br /><b>JAN 30</b></time><span class="mini-icon">▤</span><div><strong>LOCAL MAKERS MARKET</strong><small>Food, art, & cool stuff</small></div><b>4PM</b></li>
+          </ul>
+          <a href="#events" class="pink-button calendar-button">VIEW FULL CALENDAR <span aria-hidden="true">➜</span></a>
+          <span class="tape tape-event" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="promo-grid" aria-label="Riot news and specials">
+        <div class="merch-promo">
+          <div class="black-brush rep-heading">REP<br />THE<br />RIOT</div>
+          <img src="assets/merch-shot.webp" alt="Taco Riot black shirt and crown logo cap" loading="lazy" />
+          <button class="shop-merch-overlay" type="button" data-open-merch aria-label="Shop Taco Riot merchandise"></button>
+        </div>
+        <div class="special-promo">
+          <div class="pink-stamp">THIS<br />WEEK'S<br />SPECIAL</div>
+          <div class="special-note"><h2>AL PASTOR<br />RIOT TACO</h2><p>Marinated pork, grilled pineapple, red onion, cilantro, riot sauce.</p><button type="button" class="special-price" data-add-special>$4<sup>50</sup><small>EA</small></button></div>
+        </div>
+        <div class="truck-promo"><span class="truck-crown" aria-hidden="true">♛</span><img src="assets/food-truck.webp" alt="Illustrated Taco Riot food truck" loading="lazy" /><a href="#locations" class="truck-cta">FIND THE TRUCK <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="riot-feed paper-panel" aria-labelledby="feed-heading">
+        <div class="feed-title-wrap"><h2 id="feed-heading" class="black-brush feed-title">THE<br />RIOT<br />FEED</h2><span class="feed-swoosh" aria-hidden="true">⤴</span></div>
+        <div class="feed-grid">
+          <article class="feed-post"><img src="assets/feed-taco-lover.webp" alt="Guest enjoying a taco" loading="lazy" /><div><button class="like-button" data-like aria-label="Like taco lover post" aria-pressed="false">♡ <span>1.2K</span></button><span>▢ 56</span></div></article>
+          <article class="feed-post"><img src="assets/feed-night-market.webp" alt="Colorfully lit Taco Riot event" loading="lazy" /><div><button class="like-button" data-like aria-label="Like market post" aria-pressed="false">♡ <span>842</span></button><span>▢ 24</span></div></article>
+          <article class="feed-post"><img src="assets/feed-drink.webp" alt="Pink Taco Riot drink in front of colorful graffiti" loading="lazy" /><div><button class="like-button" data-like aria-label="Like drink post" aria-pressed="false">♡ <span>2.4K</span></button><span>▢ 71</span></div></article>
+          <article class="feed-post"><img src="assets/feed-tacos.webp" alt="Close-up of loaded street tacos" loading="lazy" /><div><button class="like-button" data-like aria-label="Like tacos post" aria-pressed="false">♡ <span>1.1K</span></button><span>▢ 39</span></div></article>
+          <article class="feed-post"><img src="assets/feed-dj.webp" alt="DJ at a neon-lit Taco Riot night" loading="lazy" /><div><button class="like-button" data-like aria-label="Like DJ post" aria-pressed="false">♡ <span>3.3K</span></button><span>▢ 102</span></div></article>
+        </div>
+      </section>
+
+      <section class="order-callout" aria-labelledby="order-heading">
+        <div class="lips-art" aria-hidden="true">✦</div>
+        <h2 id="order-heading" class="order-headline">ORDER NOW<span>!</span></h2>
+        <div class="order-options" role="group" aria-label="Choose an order type">
+          <button type="button" data-order-mode="pickup"><span class="order-icon">♧</span>PICKUP</button>
+          <button type="button" data-order-mode="delivery"><span class="order-icon">⇢</span>DELIVERY</button>
+          <button type="button" data-order-mode="catering"><span class="order-icon">▣</span>CATERING</button>
+        </div>
+        <ul class="order-checklist"><li>FRESH TACOS</li><li>COLD DRINKS</li><li>GOOD MUSIC</li><li>LOCAL VIBES</li></ul>
+        <span class="bottom-heart" aria-hidden="true">♡</span>
+      </section>
+
+      <section class="full-menu-section secondary-section" id="full-menu" aria-labelledby="full-menu-heading">
+        <div class="section-header"><div><p class="eyebrow hotpink">PICK YOUR FIGHTER</p><h2 id="full-menu-heading" class="section-heading"><span class="stroke-highlight">THE FULL MENU</span></h2></div><p>Big flavor. Zero boring bites.<br />Add something to your demo order.</p></div>
+        <div class="menu-tabs" id="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button role="tab" class="active" data-tab="tacos" aria-selected="true">TACOS</button>
+          <button role="tab" data-tab="burritos" aria-selected="false">BURRITOS</button>
+          <button role="tab" data-tab="quesadillas" aria-selected="false">QUESADILLAS</button>
+          <button role="tab" data-tab="bowls" aria-selected="false">BOWLS</button>
+          <button role="tab" data-tab="sides" aria-selected="false">SIDES</button>
+          <button role="tab" data-tab="drinks" aria-selected="false">DRINKS</button>
+        </div>
+        <div class="food-list" id="food-list" aria-live="polite"></div>
+        <p class="demo-disclaimer">Showroom concept: menu selections, prices and events are illustrative and can be replaced with the real business information.</p>
+      </section>
+
+      <section class="events-section secondary-section" id="events" aria-labelledby="events-heading">
+        <div class="section-header"><div><p class="eyebrow">THE PARTY DOESN'T STOP</p><h2 id="events-heading" class="section-heading">WHAT'S <span class="hotpink">GOING DOWN</span></h2></div><p>Food, music, and all the people who make it fun.</p></div>
+        <div class="full-events">
+          <article class="full-event"><div class="event-date"><span>FRI</span><b>24</b><span>JAN</span></div><div><h3>DJ TACO NIGHT</h3><p>Live sets, loud flavors, late-night bites.</p><span class="event-pill">8:00 PM</span></div><button type="button" data-event="DJ Taco Night">I'M IN ↗</button></article>
+          <article class="full-event"><div class="event-date"><span>SAT</span><b>25</b><span>JAN</span></div><div><h3>TACO EATING SHOWDOWN</h3><p>Bring an appetite. Bring your game face.</p><span class="event-pill">6:00 PM</span></div><button type="button" data-event="Taco Eating Showdown">I'M IN ↗</button></article>
+          <article class="full-event"><div class="event-date"><span>THU</span><b>30</b><span>JAN</span></div><div><h3>LOCAL MAKERS MARKET</h3><p>Cool art, local goods, ridiculously good tacos.</p><span class="event-pill">4:00 PM</span></div><button type="button" data-event="Local Makers Market">I'M IN ↗</button></article>
+        </div>
+        <p class="demo-disclaimer">Sample event listings for design demonstration. Dates are not a live calendar.</p>
+      </section>
+
+      <section class="story-location-grid">
+        <div class="story-panel secondary-section" id="our-story"><p class="eyebrow">LOUDER THAN LUNCH</p><h2 class="section-heading">MORE THAN <em>TACOS.</em></h2><p>Taco Riot is a design concept built around a simple idea: food should be a little messy, a lot delicious, and never, ever boring.</p><p>Street-food energy. Killer playlists. Everyone's invited to the table.</p><span class="doodle-star" aria-hidden="true">✳</span></div>
+        <div class="location-panel secondary-section" id="locations"><p class="eyebrow">CATCH US OUT THERE</p><h2 class="section-heading">FIND THE <em>RIOT.</em></h2><img src="assets/food-truck.webp" alt="Taco Riot food truck illustration" loading="lazy" /><p>Restaurant addresses, truck stops, and real-time hours go right here when the brand is ready to launch.</p><button type="button" class="pink-button location-button" data-notify>GET LOCATION UPDATES ➜</button></div>
+      </section>
+    </main>
+    <footer class="footer"><div class="footer-logo">TACO <span>RIOT</span><span class="tiny-crown">♛</span></div><p>NO SAD TACOS ALLOWED.</p><div class="footer-links"><a href="#full-menu">MENU</a><a href="#events">EVENTS</a><a href="#our-story">OUR STORY</a><a href="#top">BACK TO TOP ↑</a></div><small>© <span id="year"></span> TACO RIOT • WEBSITE SHOWROOM CONCEPT</small></footer>
+  </div>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Your demo order" aria-modal="true" role="dialog" hidden>
+    <div class="drawer-top"><div><p class="eyebrow hotpink">YOUR HAUL</p><h2>RIOT CART</h2></div><button type="button" class="close-control" data-close-panel aria-label="Close cart">×</button></div>
+    <div class="order-mode-picker" aria-label="Order type"><button type="button" class="selected" data-mode="pickup">PICKUP</button><button type="button" data-mode="delivery">DELIVERY</button><button type="button" data-mode="catering">CATERING</button></div>
+    <p class="order-type-note" id="order-type-note">Pickup selected for your demo order.</p>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-footer"><div class="subtotal-row"><strong>SUBTOTAL</strong><strong id="cart-subtotal">$0.00</strong></div><small>Taxes and fulfillment fees are not calculated in this concept.</small><button type="button" class="pink-button checkout-button" id="checkout-button">CHECKOUT ➜</button><p class="drawer-notice">Design demo only. No payment or real order will be submitted.</p></div>
+  </aside>
+  <div class="merch-modal" id="merch-modal" role="dialog" aria-modal="true" aria-label="Shop Taco Riot merchandise" hidden><div class="merch-modal-card"><button type="button" class="close-control modal-close" data-close-panel aria-label="Close merchandise">×</button><p class="eyebrow hotpink">REP THE RIOT</p><h2>MERCH DROP<span>!</span></h2><img src="assets/merch-shot.webp" alt="Taco Riot shirt and hat" /><div class="merch-items"><div><span>RIOT TEE</span><b>$25.00</b><button type="button" data-add-merch="tee">ADD +</button></div><div><span>CROWN CAP</span><b>$20.00</b><button type="button" data-add-merch="cap">ADD +</button></div></div><small>Sample merchandise shown for this website concept.</small></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

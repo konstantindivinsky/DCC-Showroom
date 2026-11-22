@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="Riverstone Studio is a design-build concept celebrating thoughtful renovations, natural materials, and extraordinary everyday living.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Riverstone Studio | Home Renovation & Design">
+  <meta property="og:description" content="Thoughtful renovation for extraordinary living.">
+  <meta property="og:image" content="assets/hero-kitchen.webp">
+  <title>Riverstone Studio | Home Renovation & Design</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#top" aria-label="Riverstone Studio, back to top">
+      <span class="brand-mark" aria-hidden="true"><span>R</span><span>S</span></span>
+      <span class="brand-name">
+        <span class="brand-title">Riverstone Studio</span>
+        <span class="brand-subtitle">Home Renovation &amp; Design</span>
+      </span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#process">Our Process</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">Renovate <span>/</span> Restore <span>/</span> Reimagine</p>
+        <h1 id="hero-title"><span>Thoughtful</span><span>Renovation for</span><em>Extraordinary</em><span>Living</span></h1>
+        <span class="gold-line" aria-hidden="true"></span>
+        <p class="hero-intro">A design–build studio creating refined, enduring spaces that elevate the way you live at home.</p>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/hero-kitchen.webp" alt="Elegant marble kitchen with dark cabinetry, warm timber beams, and brass detailing" width="1005" height="541" fetchpriority="high">
+      </div>
+    </section>
+
+    <section class="mosaic" aria-label="An introduction to Riverstone Studio's materials and services">
+      <a class="mosaic-tile mosaic-tile-wood" href="#portfolio" data-filter-target="details" aria-label="View craftsmanship concepts">
+        <img src="assets/walnut-detail.webp" alt="Close-up of a brushed brass cabinet pull set against rich walnut" width="354" height="380" loading="lazy">
+        <span class="tile-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="mosaic-tile mosaic-tile-bath" href="#portfolio" data-filter-target="bathrooms" aria-label="View bathroom concepts">
+        <img src="assets/spa-bath.webp" alt="Sculptural freestanding bathtub beside a garden-facing window" width="400" height="380" loading="lazy">
+        <span class="tile-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="mosaic-tile mosaic-tile-stone" href="#portfolio" data-filter-target="details" aria-label="View material-detail concepts">
+        <img src="assets/stone-texture.webp" alt="Close-up detail of textured natural stone" width="284" height="342" loading="lazy">
+        <span class="tile-arrow" aria-hidden="true">↗</span>
+      </a>
+      <div class="mosaic-menu">
+        <div class="mosaic-menu-links">
+          <a href="#service-kitchens">Kitchens &amp; Living Spaces</a>
+          <a href="#service-bathrooms">Bathrooms &amp; Wellness</a>
+          <a href="#service-renovations">Whole-Home Renovations</a>
+          <a href="#service-craftsmanship">Custom Craftsmanship</a>
+        </div>
+        <a class="dark-button" href="#portfolio">Explore the Portfolio <span aria-hidden="true">⟶</span></a>
+      </div>
+    </section>
+
+    <section class="section portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="section-heading portfolio-heading">
+        <div>
+          <p class="eyebrow">The portfolio</p>
+          <h2 id="portfolio-title">Considered in every <em>detail.</em></h2>
+        </div>
+        <p class="section-lede">A collection of spaces and material studies shaped by restraint, richness, and the beauty of everyday rituals.</p>
+      </div>
+      <div class="portfolio-controls" role="group" aria-label="Filter portfolio concepts">
+        <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All Spaces</button>
+        <button class="filter-button" type="button" data-filter="kitchens" aria-pressed="false">Kitchens</button>
+        <button class="filter-button" type="button" data-filter="bathrooms" aria-pressed="false">Bathrooms</button>
+        <button class="filter-button" type="button" data-filter="living" aria-pressed="false">Living</button>
+        <button class="filter-button" type="button" data-filter="details" aria-pressed="false">Details</button>
+      </div>
+      <p class="sr-only" id="portfolio-status" role="status" aria-live="polite">Showing all six concepts.</p>
+      <div class="portfolio-grid" id="portfolio-grid">
+        <article class="project-card project-card-feature" data-category="kitchens">
+          <button class="project-open" type="button" data-project="0" aria-label="View The Heritage Kitchen concept">
+            <span class="project-image"><img src="assets/warm-kitchen.webp" alt="Rich wooden kitchen with marble waterfall island, bronze lighting, and garden views" width="768" height="512" loading="eager"><span class="view-prompt">View Project <span aria-hidden="true">↗</span></span></span>
+            <span class="project-caption"><span><small>01 / Kitchens</small><strong>The Heritage Kitchen</strong></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+          </button>
+        </article>
+        <article class="project-card" data-category="bathrooms">
+          <button class="project-open" type="button" data-project="1" aria-label="View The Limestone Retreat concept">
+            <span class="project-image"><img src="assets/travertine-bath.webp" alt="Warm travertine bathroom with sculptural soaking tub and brass fixtures" width="768" height="512" loading="eager"><span class="view-prompt">View Project <span aria-hidden="true">↗</span></span></span>
+            <span class="project-caption"><span><small>02 / Bathrooms</small><strong>The Limestone Retreat</strong></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+          </button>
+        </article>
+        <article class="project-card" data-category="living">
+          <button class="project-open" type="button" data-project="2" aria-label="View The Gathering Room concept">
+            <span class="project-image"><img src="assets/living-room.webp" alt="Sunlit living room with exposed beams, natural stone fireplace, and layered textiles" width="768" height="512" loading="eager"><span class="view-prompt">View Project <span aria-hidden="true">↗</span></span></span>
+            <span class="project-caption"><span><small>03 / Living Spaces</small><strong>The Gathering Room</strong></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+          </button>
+        </article>
+        <article class="project-card" data-category="details">
+          <button class="project-open" type="button" data-project="3" aria-label="View The Material Edit concept">
+            <span class="project-image"><img src="assets/craftsmanship.webp" alt="Detailed view of rough-hewn stone, natural walnut, and brushed brass cabinetry hardware" width="768" height="512" loading="eager"><span class="view-prompt">View Project <span aria-hidden="true">↗</span></span></span>
+            <span class="project-caption"><span><small>04 / Craftsmanship</small><strong>The Material Edit</strong></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+          </button>
+        </article>
+        <article class="project-card" data-category="kitchens">
+          <button class="project-open" type="button" data-project="4" aria-label="View The Modern Heirloom concept">
+            <span class="project-image"><img src="assets/hero-kitchen.webp" alt="Black cabinetry and veined marble in a beautifully composed residential kitchen" width="1005" height="541" loading="eager"><span class="view-prompt">View Project <span aria-hidden="true">↗</span></span></span>
+            <span class="project-caption"><span><small>05 / Kitchens</small><strong>The Modern Heirloom</strong></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+          </button>
+        </article>
+        <article class="project-card" data-category="bathrooms">
+          <button class="project-open" type="button" data-project="5" aria-label="View The Stillwater Bath concept">
+            <span class="project-image"><img src="assets/spa-bath.webp" alt="Minimal freestanding bathtub and serene stone surfaces by a black-framed window" width="400" height="380" loading="eager"><span class="view-prompt">View Project <span aria-hidden="true">↗</span></span></span>
+            <span class="project-caption"><span><small>06 / Bathrooms</small><strong>The Stillwater Bath</strong></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+          </button>
+        </article>
+      </div>
+      <p class="portfolio-disclaimer">Portfolio imagery and project titles are illustrative concepts created for this showroom demonstration.</p>
+    </section>
+
+    <section class="section services-section" id="services" aria-labelledby="services-title">
+      <div class="services-intro">
+        <p class="eyebrow">What we do</p>
+        <h2 id="services-title">Spaces designed to <em>feel like you.</em></h2>
+        <p>From a single room to a completely reimagined home, every decision is guided by purpose, proportion, and a deep appreciation for honest materials.</p>
+        <a class="text-link" href="#contact">Tell us what you envision <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="service-list">
+        <article class="service-item" id="service-kitchens"><div class="service-index">01</div><div><h3>Kitchens &amp; Living Spaces</h3><p>Thoughtful gathering places where intuitive function and effortless beauty work hand in hand.</p></div><span aria-hidden="true">↗</span></article>
+        <article class="service-item" id="service-bathrooms"><div class="service-index">02</div><div><h3>Bathrooms &amp; Wellness</h3><p>Restorative spaces shaped by gentle light, tactile finishes, and quietly luxurious details.</p></div><span aria-hidden="true">↗</span></article>
+        <article class="service-item" id="service-renovations"><div class="service-index">03</div><div><h3>Whole-Home Renovations</h3><p>A cohesive perspective on how your home flows, functions, and evolves with the people in it.</p></div><span aria-hidden="true">↗</span></article>
+        <article class="service-item" id="service-craftsmanship"><div class="service-index">04</div><div><h3>Custom Craftsmanship</h3><p>Considered cabinetry, bespoke millwork, and made-to-measure details with lasting character.</p></div><span aria-hidden="true">↗</span></article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-image"><img src="assets/living-room.webp" alt="Comfortable, daylight-filled living room centered on a natural stone fireplace" width="768" height="512" loading="lazy"></div>
+      <div class="about-content">
+        <p class="eyebrow">The studio philosophy</p>
+        <h2 id="about-title">Beautifully lived in.<br><em>Made to last.</em></h2>
+        <p>A home should tell your story, not follow a trend. At Riverstone Studio, the design begins with the moments that matter: shared meals, slow mornings, and the daily comfort of a space that simply works.</p>
+        <p>Natural textures, enduring craftsmanship, and an eye for the unexpected bring warmth and individuality to every room.</p>
+        <a class="text-link" href="#process">Discover the approach <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section process-section" id="process" aria-labelledby="process-title">
+      <div class="process-head">
+        <p class="eyebrow">An intentional journey</p>
+        <h2 id="process-title">The art of <em>getting it right.</em></h2>
+        <p>A clear, collaborative process makes room for creativity while keeping every detail in focus.</p>
+      </div>
+      <div class="process-grid">
+        <article><span class="process-number">01</span><span class="step-rule" aria-hidden="true"></span><h3>Discover</h3><p>Understand your home, your everyday routines, and what you want to feel when you walk in.</p></article>
+        <article><span class="process-number">02</span><span class="step-rule" aria-hidden="true"></span><h3>Design</h3><p>Translate ideas into a cohesive vision through layout, materials, and thoughtful choices.</p></article>
+        <article><span class="process-number">03</span><span class="step-rule" aria-hidden="true"></span><h3>Refine</h3><p>Consider the practical details, align the scope, and perfect the elements that make it personal.</p></article>
+        <article><span class="process-number">04</span><span class="step-rule" aria-hidden="true"></span><h3>Realize</h3><p>Bring the vision into the home with skilled execution and care for the finishing touches.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-intro">
+        <p class="eyebrow">Start a conversation</p>
+        <h2 id="contact-title">Your next chapter<br><em>starts at home.</em></h2>
+        <p>Every extraordinary space begins with a conversation. Share a little about your project and we’ll help you shape the next step.</p>
+        <div class="contact-signature" aria-hidden="true"><span>R</span><span>S</span></div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="inquiry-form" id="inquiry-form">
+          <div class="form-row">
+            <label>Full name <input name="name" type="text" autocomplete="name" placeholder="Your name" maxlength="90" required></label>
+            <label>Email address <input name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="150" required></label>
+          </div>
+          <div class="form-row">
+            <label>Project type <select name="type" required><option value="" disabled selected>Select a service</option><option>Kitchens &amp; Living Spaces</option><option>Bathrooms &amp; Wellness</option><option>Whole-Home Renovations</option><option>Custom Craftsmanship</option><option>Just exploring</option></select></label>
+            <label>Ideal timeline <select name="timeline" required><option value="" disabled selected>When are you thinking?</option><option>As soon as practical</option><option>Within 3–6 months</option><option>Within 6–12 months</option><option>Still planning</option></select></label>
+          </div>
+          <label>Tell us about your vision <textarea name="message" rows="4" maxlength="3000" placeholder="What would you love to change about your space?" required></textarea></label>
+          <button class="light-button" type="submit">Prepare Your Inquiry <span aria-hidden="true">⟶</span></button>
+          <p class="form-note">Demo inquiry form. No information is sent or stored on a server.</p>
+        </form>
+        <div class="inquiry-result" id="inquiry-result" hidden role="status" aria-live="polite">
+          <p class="eyebrow">Your inquiry is ready</p>
+          <h3>A thoughtful beginning.</h3>
+          <p>This showroom demo does not have a live inbox. Copy the prepared inquiry below to use in an email.</p>
+          <pre id="inquiry-preview"></pre>
+          <div class="inquiry-actions"><button type="button" class="light-button" id="copy-inquiry">Copy Inquiry <span aria-hidden="true">⧉</span></button><button type="button" class="reset-button" id="edit-inquiry">Edit details</button></div>
+          <p class="copy-status" id="copy-status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top" aria-label="Riverstone Studio, back to top">
+      <span class="brand-mark" aria-hidden="true"><span>R</span><span>S</span></span>
+      <span class="brand-name"><span class="brand-title">Riverstone Studio</span><span class="brand-subtitle">Home Renovation &amp; Design</span></span>
+    </a>
+    <div class="footer-right"><p>Thoughtful renovation for extraordinary living.</p><a href="#top">Back to top ↑</a></div>
+    <div class="footer-bottom"><small>© <span id="year">2026</span> Riverstone Studio. Website design concept.</small><small>Imagery and project examples are illustrative.</small></div>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <button class="dialog-close" type="button" id="dialog-close" aria-label="Close project details">×</button>
+      <div class="dialog-image-wrap"><img id="dialog-image" alt="" width="768" height="512"></div>
+      <div class="dialog-content"><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-bottom"><span id="dialog-count"></span><div class="dialog-nav"><button type="button" id="dialog-prev" aria-label="Previous project">←</button><button type="button" id="dialog-next" aria-label="Next project">→</button></div></div></div>
+    </div>
+  </dialog>
+</body>
+</html>

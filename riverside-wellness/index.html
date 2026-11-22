@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#516a4e">
+  <meta name="description" content="Riverside Wellness: a thoughtfully designed, whole-person care experience. An interactive showroom website concept.">
+  <title>Riverside Wellness | Integrative Health & Medicine</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" href="assets/hero-doctor.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-lotus" viewBox="0 0 64 64">
+      <path d="M32 47C19 39 19 24 32 6c13 18 13 33 0 41Z"/><path d="M31 48C17 48 9 38 8 19c15 5 23 14 24 27"/><path d="M33 48c14 0 22-10 23-29-15 5-23 14-24 27"/><path d="M32 49C19 55 8 50 3 35c12-1 22 4 29 13"/><path d="M32 49c13 6 24 1 29-14-12-1-22 4-29 13"/><path d="M11 54c12 3 30 3 42 0"/>
+    </symbol>
+    <symbol id="icon-leaf" viewBox="0 0 48 48">
+      <path d="M40 7C19 9 8 13 8 28c0 7 5 12 12 12C35 40 40 23 40 7Z"/><path d="M6 44c8-15 15-21 29-27"/><path d="M18 26l-5-5"/><path d="M27 22l1 9"/>
+    </symbol>
+    <symbol id="icon-stones" viewBox="0 0 48 48">
+      <path d="M13 18c-4 1-6 4-6 6 0 4 6 6 17 6s17-2 17-6c0-3-3-5-8-6"/><path d="M12 30c-5 1-7 4-7 7 0 4 8 7 19 7s19-3 19-7c0-3-3-5-7-7"/><path d="M14 13c0-4 4-7 10-7s10 3 10 7-4 7-10 7-10-3-10-7Z"/><path d="M13 27c7 3 15 3 22 0"/>
+    </symbol>
+    <symbol id="icon-heart" viewBox="0 0 48 48">
+      <path d="M24 41 7.5 24.5C-2 15 10 4 19 11l5 5 5-5c9-7 21 4 11.5 13.5L24 41Z"/><path d="M8 24h8l4-7 6 14 4-7h9"/>
+    </symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24">
+      <rect x="3.5" y="5" width="17" height="16" rx="2"/><path d="M7.5 2.5v5M16.5 2.5v5M3.5 10h17M8 14h2m4 0h2m-8 4h2"/>
+    </symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24">
+      <path d="M6.6 2.8 10 6.2 7.8 9c1.6 3.2 4 5.5 7.2 7.2l2.8-2.2 3.4 3.4c.6.6.7 1.5.2 2.2-.9 1.2-2.4 2-3.9 1.7C10.4 20.2 3.8 13.6 2.6 6.5 2.4 5 3.2 3.5 4.4 2.6c.7-.5 1.6-.4 2.2.2Z"/>
+    </symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24">
+      <path d="M19.5 10c0 5.3-7.5 12-7.5 12S4.5 15.3 4.5 10a7.5 7.5 0 0 1 15 0Z"/><circle cx="12" cy="10" r="2.5"/>
+    </symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9"/><path d="M12 6.5V12l3.5 2.5"/>
+    </symbol>
+    <symbol id="icon-award" viewBox="0 0 48 48">
+      <path d="m24 4 5 2 5-.5 2.5 4.5 4.3 2.8-.5 5L43 23l-2.7 5.2.5 5-4.3 2.8L34 40.5l-5-.5-5 2-5-2-5 .5-2.5-4.5-4.3-2.8.5-5L5 23l2.7-5.2-.5-5 4.3-2.8L14 5.5l5 .5 5-2Z"/><path d="m18 23 4.5 4.5 8.5-10"/><path d="m14 37-2 9 12-5 12 5-2-9"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="m15 4-8 8 8 8"/></symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="m9 4 8 8-8 8"/></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Riverside Wellness, home">
+        <svg class="brand-mark" aria-hidden="true"><use href="#icon-lotus"></use></svg>
+        <span class="brand-words"><span class="brand-name">Riverside Wellness</span><span class="brand-tagline">Integrative Health &amp; Medicine</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#patients">For Patients</a>
+        <a class="nav-link" href="#resources">Resources</a>
+      </nav>
+      <button class="button button-primary header-book" type="button" data-book><svg aria-hidden="true"><use href="#icon-calendar"></use></svg>Book an Appointment</button>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><svg aria-hidden="true"><use href="#icon-menu"></use></svg></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#patients">For Patients</a><a href="#resources">Resources</a>
+      <button class="button button-primary" type="button" data-book><svg aria-hidden="true"><use href="#icon-calendar"></use></svg>Book an Appointment</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-decor hero-decor-left" aria-hidden="true"></div>
+      <div class="hero-photo" role="img" aria-label="Dr. Elena Marshall smiling in a welcoming medical office"></div>
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">Medicine <span class="middot">•</span> Prevention <span class="middot">•</span> Wellness</p>
+        <h1 id="hero-title">Whole-Person Care<br class="desktop-break"> for a Healthier, Happier You</h1>
+        <p class="hero-description">Personalized, evidence-based care that treats the whole person <span class="nowrap">—</span> body, mind, and lifestyle.</p>
+        <div class="hero-actions">
+          <button class="button button-primary button-large" type="button" data-book><svg aria-hidden="true"><use href="#icon-calendar"></use></svg>Book an Appointment</button>
+          <a class="button button-outline button-large" href="#patients">New Patients Welcome</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-strip" id="services" aria-label="Care specialties">
+      <div class="service-strip-inner">
+        <a class="service-feature" href="#service-prevention"><svg aria-hidden="true"><use href="#icon-leaf"></use></svg><span><strong>Preventive Care</strong><small>Stay healthy for the long term</small></span></a>
+        <a class="service-feature" href="#service-hormones"><svg aria-hidden="true"><use href="#icon-lotus"></use></svg><span><strong>Hormonal &amp; Metabolic Health</strong><small>Restore balance and energy</small></span></a>
+        <a class="service-feature" href="#service-stress"><svg aria-hidden="true"><use href="#icon-stones"></use></svg><span><strong>Stress &amp; Sleep Support</strong><small>Improve rest, resilience, and focus</small></span></a>
+        <a class="service-feature" href="#service-lifestyle"><svg aria-hidden="true"><use href="#icon-heart"></use></svg><span><strong>Lifestyle Wellness</strong><small>Nutrition, movement, and sustainable habits</small></span></a>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-image-wrap"><img src="assets/consultation.webp" width="434" height="288" alt="Dr. Marshall speaking warmly with a patient during a consultation" loading="lazy"></div>
+      <div class="about-copy">
+        <div class="section-label-line"><span class="eyebrow">About Dr. Marshall</span><span class="short-line"></span></div>
+        <h2 id="about-title">Compassionate Care,<br>Rooted in Partnership</h2>
+        <p>I’m Dr. Elena Marshall, a board-certified physician in integrative medicine. My approach is simple: listen carefully, understand the bigger picture, and work with you to create a personalized plan for lasting health and well-being.</p>
+        <p>I believe in building long-term relationships with my patients, where you feel heard, respected, and supported every step of the way.</p>
+      </div>
+      <aside class="credentials" aria-labelledby="credentials-title">
+        <div class="credentials-heading"><svg aria-hidden="true"><use href="#icon-award"></use></svg><h3 id="credentials-title">Credentials &amp; Training</h3></div>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#icon-check"></use></svg>MD, Internal Medicine</li>
+          <li><svg aria-hidden="true"><use href="#icon-check"></use></svg>Board-Certified in Integrative Medicine</li>
+          <li><svg aria-hidden="true"><use href="#icon-check"></use></svg>10+ Years of Clinical Experience</li>
+          <li><svg aria-hidden="true"><use href="#icon-check"></use></svg>Member, American Board of Integrative Medicine</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="testimonials" aria-label="Patient perspectives">
+      <div class="leaf-shadow" aria-hidden="true"></div>
+      <div class="testimonial-inner">
+        <button class="testimonial-arrow" id="testimonial-prev" type="button" aria-label="Previous testimonial"><svg aria-hidden="true"><use href="#icon-arrow-left"></use></svg></button>
+        <div class="testimonial-content" aria-live="polite" aria-atomic="true">
+          <blockquote id="testimonial-quote">“Dr. Marshall takes the time to really listen and looks at the whole picture.<br class="quote-break"> I feel healthier, more balanced, and truly cared for.”</blockquote>
+          <p class="testimonial-author" id="testimonial-author">— A. Carter, Patient</p>
+          <div class="testimonial-dots" role="group" aria-label="Choose testimonial">
+            <button class="dot is-active" type="button" data-slide="0" aria-label="Show testimonial 1" aria-pressed="true"></button>
+            <button class="dot" type="button" data-slide="1" aria-label="Show testimonial 2" aria-pressed="false"></button>
+            <button class="dot" type="button" data-slide="2" aria-label="Show testimonial 3" aria-pressed="false"></button>
+          </div>
+        </div>
+        <button class="testimonial-arrow" id="testimonial-next" type="button" aria-label="Next testimonial"><svg aria-hidden="true"><use href="#icon-arrow-right"></use></svg></button>
+      </div>
+    </section>
+
+    <section class="visit-section" id="contact" aria-labelledby="visit-title">
+      <div class="visit-image"><img src="assets/clinic-room.webp" width="480" height="294" alt="Comfortable, light-filled clinic waiting room with a sage-green cushion" loading="lazy"></div>
+      <div class="visit-copy">
+        <div class="section-label-line"><span class="eyebrow">Let's Connect</span><span class="short-line"></span></div>
+        <h2 id="visit-title">Schedule Your Visit</h2>
+        <p>Whether you’re here for preventive care, support with a specific health concern, or a more comprehensive wellness plan, we’re here to help.</p>
+        <div class="visit-actions"><button class="button button-primary" type="button" data-book><svg aria-hidden="true"><use href="#icon-calendar"></use></svg>Book an Appointment Online</button><a class="button button-outline phone-button" href="tel:+15556472180"><svg aria-hidden="true"><use href="#icon-phone"></use></svg>(555) 647-2180</a></div>
+      </div>
+      <div class="visit-details">
+        <div class="detail"><svg aria-hidden="true"><use href="#icon-pin"></use></svg><div><strong>Our Clinic</strong><address>1284 Riverside Drive, Suite 200<br>Fairview, OR 97024</address></div></div>
+        <div class="detail"><svg aria-hidden="true"><use href="#icon-clock"></use></svg><div><strong>Hours</strong><p>Mon - Thu: 8:00 AM - 5:30 PM<br>Fri: 8:00 AM - 4:00 PM</p></div></div>
+      </div>
+    </section>
+
+    <section class="additional-section care-detail" aria-labelledby="care-title">
+      <div class="narrow-intro"><p class="eyebrow">Care Designed Around You</p><h2 id="care-title">A More Connected Approach to Wellness</h2><p>Explore the areas of care that help bring your long-term health goals into focus.</p></div>
+      <div class="care-grid">
+        <article class="care-card" id="service-prevention"><svg aria-hidden="true"><use href="#icon-leaf"></use></svg><h3>Preventive Care</h3><p>Thoughtful checkups, health screenings, and proactive conversations focused on the years ahead.</p></article>
+        <article class="care-card" id="service-hormones"><svg aria-hidden="true"><use href="#icon-lotus"></use></svg><h3>Hormonal &amp; Metabolic Health</h3><p>A whole-person look at energy, metabolism, and changes that may be affecting how you feel.</p></article>
+        <article class="care-card" id="service-stress"><svg aria-hidden="true"><use href="#icon-stones"></use></svg><h3>Stress &amp; Sleep Support</h3><p>Practical, individualized strategies to support restorative sleep and everyday resilience.</p></article>
+        <article class="care-card" id="service-lifestyle"><svg aria-hidden="true"><use href="#icon-heart"></use></svg><h3>Lifestyle Wellness</h3><p>Support with nourishment, movement, and habits that make a meaningful difference over time.</p></article>
+      </div>
+    </section>
+
+    <section class="additional-section patients-section" id="patients" aria-labelledby="patients-title">
+      <div class="patients-heading"><p class="eyebrow">New Patients Welcome</p><h2 id="patients-title">Your First Visit, Made Simple</h2><p>Good care begins with a conversation. Here is what your first appointment could look like.</p></div>
+      <div class="steps-grid">
+        <div class="step"><span class="step-number">01</span><h3>Tell Us Your Story</h3><p>Share your health history, concerns, and what matters most to you.</p></div>
+        <div class="step"><span class="step-number">02</span><h3>Look at the Whole Picture</h3><p>Discuss your lifestyle, goals, and questions during a thoughtful visit.</p></div>
+        <div class="step"><span class="step-number">03</span><h3>Create a Plan Together</h3><p>Leave with a clearer understanding of your next steps and ongoing support.</p></div>
+      </div>
+      <button class="button button-primary" type="button" data-book><svg aria-hidden="true"><use href="#icon-calendar"></use></svg>Request Your First Appointment</button>
+    </section>
+
+    <section class="additional-section resources-section" id="resources" aria-labelledby="resources-title">
+      <div class="resources-intro"><p class="eyebrow">Helpful Information</p><h2 id="resources-title">Common Questions</h2><p>Everything you need to feel more comfortable getting started.</p></div>
+      <div class="faq-list">
+        <details><summary>What can I expect at my first visit?<svg aria-hidden="true"><use href="#icon-chevron"></use></svg></summary><p>Your first visit is designed to make time for a conversation about your health history, current concerns, and long-term wellness goals. Specific visit details will be confirmed by the clinic.</p></details>
+        <details><summary>What does integrative care mean?<svg aria-hidden="true"><use href="#icon-chevron"></use></svg></summary><p>Integrative care considers physical health, daily habits, stress, and overall well-being alongside evidence-based medical care.</p></details>
+        <details><summary>Do you accept insurance?<svg aria-hidden="true"><use href="#icon-chevron"></use></svg></summary><p>Insurance participation, payment details, and any required forms would be confirmed directly with the practice before your visit.</p></details>
+        <details><summary>How do I request an appointment?<svg aria-hidden="true"><use href="#icon-chevron"></use></svg></summary><p>Select any “Book an Appointment” button to try the interactive scheduling demonstration. This showroom website does not submit real appointments.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-about"><a class="brand footer-brand" href="#home"><svg class="brand-mark" aria-hidden="true"><use href="#icon-lotus"></use></svg><span class="brand-words"><span class="brand-name">Riverside Wellness</span><span class="brand-tagline">Integrative Health &amp; Medicine</span></span></a><p>Whole-person care for a healthier, happier you.</p></div>
+      <div><h3>Explore</h3><a href="#about">Meet Dr. Marshall</a><a href="#services">Our Services</a><a href="#patients">For Patients</a><a href="#resources">Resources</a></div>
+      <div><h3>Connect</h3><a href="tel:+15556472180">(555) 647-2180</a><span>1284 Riverside Drive, Suite 200</span><span>Fairview, OR 97024</span><button class="footer-book-link" type="button" data-book>Request an Appointment</button></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="current-year">2026</span> Riverside Wellness</span><span>Showroom concept. Names, credentials, testimonials, address, and phone are illustrative. No real appointments are booked.</span></div>
+  </footer>
+
+  <dialog id="booking-dialog" class="booking-dialog" aria-labelledby="booking-title">
+    <div class="dialog-shell">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Close appointment form"><svg aria-hidden="true"><use href="#icon-close"></use></svg></button>
+      <div id="booking-form-panel"><p class="eyebrow">Riverside Wellness</p><h2 id="booking-title">Request an Appointment</h2><p class="dialog-lead">See how the patient appointment experience could work.</p><div class="demo-alert">Interactive showroom demo: no information is sent or stored, and no appointment will be scheduled.</div>
+        <form id="booking-form">
+          <div class="form-row"><label>Full name <span aria-hidden="true">*</span><input name="name" autocomplete="name" placeholder="Your name" required maxlength="100"></label><label>Email <span aria-hidden="true">*</span><input name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="160"></label></div>
+          <div class="form-row"><label>Phone number<input name="phone" autocomplete="tel" type="tel" placeholder="(555) 000-0000" maxlength="30"></label><label>Interested in<select name="service"><option value="General consultation">General consultation</option><option value="Preventive care">Preventive care</option><option value="Hormonal & metabolic health">Hormonal &amp; metabolic health</option><option value="Stress & sleep support">Stress &amp; sleep support</option><option value="Lifestyle wellness">Lifestyle wellness</option></select></label></div>
+          <label>Preferred date<input name="date" id="booking-date" type="date"></label>
+          <label>Anything you'd like us to know? <span class="optional">(optional; please don't enter medical details)</span><textarea name="message" rows="3" maxlength="500" placeholder="Best time to reach you, general questions, etc."></textarea></label>
+          <button class="button button-primary form-submit" type="submit"><svg aria-hidden="true"><use href="#icon-calendar"></use></svg>Preview Appointment Request</button>
+        </form>
+      </div>
+      <div id="booking-success-panel" hidden><div class="success-symbol"><svg aria-hidden="true"><use href="#icon-check"></use></svg></div><p class="eyebrow">Demo Complete</p><h2>Here's Your Request Preview</h2><p class="dialog-lead">This illustrates the request experience. <strong>No appointment has been scheduled or sent.</strong></p><div id="request-preview" class="request-preview"></div><div class="success-actions"><button class="button button-primary" type="button" id="copy-request">Copy Request Details</button><button class="button button-outline" type="button" id="done-booking">Done</button></div><p class="copy-status" id="copy-status" role="status"></p></div>
+    </div>
+  </dialog>
+</body>
+</html>

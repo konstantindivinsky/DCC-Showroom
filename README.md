@@ -46,6 +46,14 @@ The showroom is intentionally marked `noindex,nofollow`; these are concept demon
 
 Edit `assets/data.js` and add a new entry under `categories` with a unique `id`. Add one or more entries to `concepts` that point to static HTML pages in `templates/`, with local hero/detail/board imagery. The home carousel and concept gallery populate from the data file automatically and do not require HTML changes.
 
+## Palettes
+
+Each concept has four palettes with these keys: `bg`, `panel`, `ink`, `muted`, `accent`, `accentText` and `accentInk`.
+
+- `accentText` is the text color on accent buttons. It must reach 4.5:1 against `accent`.
+- `accentInk` is the accent shade used for small accent text (eyebrows, numerals) and the keyboard focus ring. It must reach 4.5:1 against both `bg` and `panel`. If it is missing, the plain `accent` is used.
+- The same palette list lives in three places and must match: `assets/data.js`, `catalog.json`, and the `window.DCC_SITE` block in the template. The template's `<body style>` holds palette 1 so the page looks right before the script runs.
+
 ## Legal and content notes
 
 - Example business names, projects, roles, claims, images and storylines are fictional. Do not copy unverified statements into client production sites.

@@ -1,5 +1,7 @@
 # Divinsky Website Showroom
 
+Live at **https://showroom.divinsky.net/**.
+
 A single static, mobile-friendly showroom containing **20 complete interactive website concepts**. This is an inspiration collection, **not** a template store or a menu of fixed designs. Each concept is fictional and intended to help clients discuss the possibilities for an original website.
 
 The entire project is one website. The root `index.html` is the showroom, and every demo opens from a dedicated subfolder. The demos are preserved from their approved individual builds, including their local photos, stylesheets, scripts, forms, and interactions.
@@ -57,6 +59,7 @@ showroom/
   styles.css                Responsive Divinsky showroom styling
   assets/                   Original Divinsky logo and favicon
   assets/thumbs/            Card thumbnails for demos that embed their images inline
+  assets/og-image.jpg       1200x630 link-preview image (referenced by absolute URL in index.html)
 apex-motorsports/           First original demo, moved out of the old repo root
 alex-mercer/
 atelier-noir/

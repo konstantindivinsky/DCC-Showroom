@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061720">
+  <meta name="description" content="Harbor Auto Service. Honest repairs. Local service. Explore maintenance, diagnostics, pricing, and booking in this demo website.">
+  <title>Harbor Auto Service | Honest Repairs. Local Service.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <svg class="svg-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.9L7.1 10a16 16 0 0 0 7 7l1.4-1.9a2 2 0 0 1 1.9-.6l3 .5a2 2 0 0 1 1.6 1.9Z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M7.5 14h.01M12 14h.01M16.5 14h.01M7.5 17.5h.01M12 17.5h.01"/></symbol>
+    <symbol id="i-calendar-check" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18m-12 6 2.2 2.2L16 14"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 3"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="m5 11 1.7-5A2 2 0 0 1 8.6 4.7h6.8A2 2 0 0 1 17.3 6l1.7 5M4.5 11h15A1.5 1.5 0 0 1 21 12.5v5H3v-5A1.5 1.5 0 0 1 4.5 11ZM5 18v2h3v-2m8 0v2h3v-2M6 14h2m8 0h2"/></symbol>
+    <symbol id="i-oil" viewBox="0 0 64 64"><path d="M8 23h29l12 11v12H13V34H8zM15 13h15m-9 0v10m26 7 8-11M8 23H3v15h10M52 46c0-5 6-11 6-11s6 6 6 11a6 6 0 0 1-12 0Z"/></symbol>
+    <symbol id="i-brakes" viewBox="0 0 64 64"><circle cx="32" cy="32" r="23"/><circle cx="32" cy="32" r="14"/><circle cx="32" cy="32" r="5"/><path d="M32 8v8M32 48v8M8 32h8m32 0h8M15 15l6 6m22 22 6 6M49 15l-6 6M21 43l-6 6"/></symbol>
+    <symbol id="i-engine" viewBox="0 0 64 64"><path d="M12 23h13l5-7h15v8h9v26H16V42H9V30h3zM29 16V9h12M24 35h14m-7-7v14m23-7h6"/></symbol>
+    <symbol id="i-battery" viewBox="0 0 64 64"><rect x="9" y="18" width="46" height="33" rx="3"/><path d="M20 18V11h9v7m9 0v-7h9v7M18 34h12m-6-6v12m15-6h10"/></symbol>
+    <symbol id="i-tire" viewBox="0 0 64 64"><ellipse cx="32" cy="32" rx="19" ry="27"/><ellipse cx="32" cy="32" rx="9" ry="21"/><path d="M18 11l10 10m-13 1 12 9m-12 2 12 7m-10 6 11 7m19-42L36 22m13 0-12 10m12 3-12 8m9 7-10 5"/></symbol>
+    <symbol id="i-snow" viewBox="0 0 64 64"><path d="M32 4v56M8 18l48 28M8 46l48-28M23 10l9 9 9-9M23 54l9-9 9 9M8 29l12-3-3-12m39 21-12 3 3 12M17 50l3-12-12-3m39-21-3 12 12 3"/></symbol>
+    <symbol id="i-tools" viewBox="0 0 64 64"><path d="m14 10 20 20m5 5 15 15-6 6-15-15M13 9l-3 10 10 10 7-7M53 8a16 16 0 0 1-18 20L16 47a7 7 0 1 0 10 10l19-19A16 16 0 0 0 55 16l-9 9-8-8z"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M12 3H4a1 1 0 0 0-1 1v8l9 9 9-9-9-9Z"/><circle cx="7.5" cy="7.5" r="1.3"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 3.5 6v6c0 5.3 3.4 8.6 8.5 10 5.1-1.4 8.5-4.7 8.5-10V6L12 2Z"/><path d="m8 12 2.5 2.5 5.5-6"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="12" cy="6" r="3"/><circle cx="4.5" cy="8" r="2"/><circle cx="19.5" cy="8" r="2"/><path d="M7 21v-5a5 5 0 0 1 10 0v5Zm-5 0v-7a3 3 0 0 1 4-2.8M22 21v-7a3 3 0 0 0-4-2.8"/></symbol>
+    <symbol id="i-handshake" viewBox="0 0 24 24"><path d="m2 9 5-4 5 2 4-2 6 4-4 8-5 4-4-3-3-1-4-8Z"/><path d="m9 13 4 4m-1-7 3-2m-7 7 3 3m4-3 2 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="demo-ribbon"><span><strong>DESIGN CONCEPT</strong> • Fictional business details, pricing and reviews • Forms are interactive demos</span></div>
+
+  <header class="site-header" id="top">
+    <div class="brand-zone">
+      <a class="brand" href="#top" aria-label="Harbor Auto Service, back to top">
+        <svg class="brand-icon" viewBox="0 0 94 74" fill="none" aria-hidden="true"><path d="M3 65v-15h9l4-14-7-5 8-12 10 5 10-10-1-11h16l1 11 12 3 7-7 11 11-6 8 5 11 10 3v15H76A35 35 0 0 0 13 65H3Z" fill="#ffcd06"/><path d="M22 50c4-6 9-8 18-9l13-10h17l12 12 5 4v9h-7a8 8 0 0 0-16 0H43a8 8 0 0 0-16 0h-8v-5l3-1Z" fill="#f8fafb" stroke="#06141a" stroke-width="2"/><circle cx="35" cy="56" r="6" fill="#06141a" stroke="#fff" stroke-width="2"/><circle cx="72" cy="56" r="6" fill="#06141a" stroke="#fff" stroke-width="2"/><path d="M45 40h15l6-7H54Z" fill="#06141a"/></svg>
+        <span class="brand-type"><strong>HARBOR</strong><small><span class="mark-line"></span>AUTO SERVICE<span class="mark-line"></span></small></span>
+      </a>
+      <span class="brand-divider" aria-hidden="true"></span>
+      <p class="brand-tagline">Your Local<br>Auto Repair Experts</p>
+    </div>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a class="nav-link active" href="#top">Home</a>
+      <div class="nav-services"><button type="button" class="nav-link nav-drop" id="services-menu-button" aria-expanded="false" aria-controls="services-menu">Services <svg><use href="#i-down"/></svg></button>
+        <div class="dropdown" id="services-menu" hidden>
+          <a href="#services">All services</a><a href="#services" data-service-link="oil">Oil & maintenance</a><a href="#services" data-service-link="brakes">Brakes</a><a href="#services" data-service-link="engine">Engine diagnostics</a><a href="#services" data-service-link="tires">Tires & alignment</a>
+        </div>
+      </div>
+      <a class="nav-link" href="#pricing">Pricing</a><a class="nav-link" href="#reviews">Reviews</a><a class="nav-link" href="#about">About</a><a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="header-call" href="tel:+17175550147"><svg><use href="#i-phone"/></svg><span>(717) 555-0147</span></a>
+    <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav"><svg><use href="#i-menu"/></svg></button>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="#top">Home</a><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#reviews">Reviews</a><a href="#about">About</a><a href="#contact">Contact</a><a href="tel:+17175550147" class="mobile-call">Call (717) 555-0147</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-photo" aria-label="Friendly mechanic standing beside a vehicle in a repair garage">
+        <div class="hero-copy">
+          <h1 id="hero-heading">HONEST<br>REPAIRS.<br><span>LOCAL SERVICE.</span></h1>
+          <div class="red-brush" aria-hidden="true"></div>
+          <p>Keeping you on the road<br> safely, reliably, and affordably<br> right here in the community.</p>
+        </div>
+      </div>
+      <section class="booking-panel" id="book" aria-labelledby="booking-heading">
+        <div class="booking-head"><svg class="booking-icon"><use href="#i-calendar"/></svg><div><h2 id="booking-heading">BOOK YOUR SERVICE</h2><p>Fast scheduling • Quality service • No surprises</p></div></div>
+        <form id="booking-form" novalidate>
+          <label class="field service-field"><span class="sr-only">Service needed</span><svg class="field-icon"><use href="#i-car"/></svg><select id="service-select" required><option value="">Service Needed</option><option value="oil">Oil Change & Maintenance</option><option value="brakes">Brake Service</option><option value="engine">Engine Diagnostics</option><option value="battery">Battery & Electrical</option><option value="tires">Tires & Alignment</option><option value="climate">Heating & A/C Service</option><option value="repair">General Repair</option></select><svg class="field-arrow"><use href="#i-down"/></svg></label>
+          <div class="date-time-row"><label class="field"><span class="sr-only">Preferred date</span><svg class="field-icon"><use href="#i-calendar"/></svg><input id="preferred-date" type="date" required aria-label="Preferred date"></label><label class="field"><span class="sr-only">Preferred time</span><svg class="field-icon"><use href="#i-clock"/></svg><select id="preferred-time" required><option value="">Preferred Time</option></select><svg class="field-arrow"><use href="#i-down"/></svg></label></div>
+          <p class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></p>
+          <button type="submit" class="primary-cta"><svg><use href="#i-calendar-check"/></svg>BOOK SERVICE NOW<svg class="cta-arrow"><use href="#i-arrow"/></svg></button>
+        </form>
+        <div class="call-alternative"><span></span><p>or Call <a href="tel:+17175550147">(717) 555-0147</a></p><span></span></div>
+      </section>
+    </section>
+
+    <section class="quick-services" id="services" aria-label="Auto repair services">
+      <button class="service-tile" data-service="oil"><svg><use href="#i-oil"/></svg><span>OIL CHANGE<br>& MAINTENANCE</span></button>
+      <button class="service-tile" data-service="brakes"><svg><use href="#i-brakes"/></svg><span>BRAKE<br>SERVICE</span></button>
+      <button class="service-tile" data-service="engine"><svg><use href="#i-engine"/></svg><span>ENGINE<br>DIAGNOSTICS</span></button>
+      <button class="service-tile" data-service="battery"><svg><use href="#i-battery"/></svg><span>BATTERY<br>& ELECTRICAL</span></button>
+      <button class="service-tile" data-service="tires"><svg><use href="#i-tire"/></svg><span>TIRES<br>& ALIGNMENT</span></button>
+      <button class="service-tile" data-service="climate"><svg><use href="#i-snow"/></svg><span>HEATING &<br>A/C SERVICE</span></button>
+      <button class="service-tile" data-service="repair"><svg><use href="#i-tools"/></svg><span>GENERAL<br>REPAIR</span></button>
+    </section>
+
+    <section class="info-band" aria-label="Pricing, customer reviews, and location">
+      <div class="pricing-panel" id="pricing">
+        <div class="panel-title"><svg><use href="#i-tag"/></svg><div><h2>TRANSPARENT PRICING</h2><p>Fair, upfront estimates. No hidden fees.</p></div></div>
+        <div class="price-table"><div><span>Conventional Oil Change</span><span>from <strong>$49.95</strong></span></div><div><span>Brake Pad Replacement (front)</span><span>from <strong>$219.95</strong></span></div><div><span>Battery Replacement</span><span>from <strong>$149.95</strong></span></div><div><span>A/C Service & Recharge</span><span>from <strong>$129.95</strong></span></div></div>
+        <button type="button" id="full-pricing-button" class="outline-cta" aria-expanded="false" aria-controls="full-pricing">VIEW FULL SERVICE PRICING <svg><use href="#i-arrow"/></svg></button>
+      </div>
+      <div class="reviews-panel" id="reviews">
+        <div class="panel-title quote-title"><span class="quote-mark">“</span><h2>WHAT OUR CUSTOMERS SAY</h2></div>
+        <div class="reviews-inner"><figure><div class="stars" aria-label="Five stars">★★★★★</div><blockquote>“Always honest, fair, and they get it right the first time. I wouldn’t take my vehicles anywhere else.”</blockquote><figcaption>— John R., Lewisberry</figcaption></figure><figure><div class="stars" aria-label="Five stars">★★★★★</div><blockquote>“Great service, great prices, and the staff actually explains what needs to be done.”</blockquote><figcaption>— Sarah M., York</figcaption></figure></div>
+        <div class="rating-chip" aria-label="Illustrative 4.9 out of 5 rating based on over 350 example reviews"><span class="google-g">G</span> 4.9 out of 5 <span class="rating-divider"></span> 350+ Google Reviews</div>
+      </div>
+      <div class="contact-panel" id="contact">
+        <div class="contact-details"><div class="contact-piece"><svg><use href="#i-clock"/></svg><div><h2>HOURS</h2><p>Mon – Fri: 8:00 AM – 5:30 PM<br>Saturday: 8:00 AM – 1:00 PM<br>Sunday: Closed</p></div></div><div class="contact-piece"><svg><use href="#i-pin"/></svg><div><h2>LOCATION</h2><p>245 Harbor Rd<br>Lewisberry, PA 17339</p></div></div></div>
+        <div class="map-art" role="img" aria-label="Decorative example map with a red location pin; not a navigational map"><svg viewBox="0 0 150 170" preserveAspectRatio="xMidYMid slice"><rect width="150" height="170" fill="#e9eee4"/><path d="M-10 15 160 75M-20 80 165 133M-20 130 165 12M32 -10 95 185M108 -10 145 181" stroke="#fff" stroke-width="13"/><path d="M-10 15 160 75M-20 80 165 133M-20 130 165 12M32 -10 95 185M108 -10 145 181" stroke="#c6c8c4" stroke-width="1.5"/><path d="M10 4h52v29H10ZM96 86h42v39H96Z" fill="#bfe3b3" opacity=".75"/><path d="M75 51c-13 0-23 10-23 23 0 18 23 41 23 41s23-23 23-41c0-13-10-23-23-23Z" fill="#dc322b" stroke="#ab1c18" stroke-width="2"/><circle cx="75" cy="74" r="8" fill="#fff"/><path d="M3 2 148 166" stroke="#c2c8bd" opacity=".5"/></svg></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" id="about" aria-label="Our commitments">
+      <div class="trust-item"><div class="ase-badge">ASE<small>CERTIFIED</small></div><span>CERTIFIED TECHNICIANS</span></div>
+      <div class="trust-item"><svg><use href="#i-shield"/></svg><span>12 MONTH / 12,000 MILE<br>SERVICE WARRANTY</span></div>
+      <div class="trust-item"><svg><use href="#i-people"/></svg><span>FAMILY OWNED<br>& OPERATED</span></div>
+      <div class="trust-item"><svg><use href="#i-handshake"/></svg><span>SERVING OUR COMMUNITY<br>FOR OVER 20 YEARS</span></div>
+    </section>
+
+    <section id="full-pricing" class="expanded-pricing" hidden aria-labelledby="full-pricing-heading"><div class="section-head"><span class="eyebrow">SERVICE MENU</span><h2 id="full-pricing-heading">Straightforward pricing. No surprises.</h2><p>Illustrative starting prices shown for this showroom concept. Actual quotes depend on your vehicle and the work required.</p></div><div class="expanded-grid"><div><h3>Maintenance</h3><p>Conventional oil change <strong>from $49.95</strong></p><p>Synthetic oil change <strong>from $79.95</strong></p><p>Multi-point inspection <strong>Request a quote</strong></p></div><div><h3>Repairs</h3><p>Front brake pads <strong>from $219.95</strong></p><p>Battery replacement <strong>from $149.95</strong></p><p>Engine diagnostics <strong>from $99.95</strong></p></div><div><h3>Comfort & handling</h3><p>A/C service & recharge <strong>from $129.95</strong></p><p>Tire rotation <strong>from $29.95</strong></p><p>Wheel alignment <strong>from $109.95</strong></p></div></div><a href="#book" class="secondary-cta">Choose a service <svg><use href="#i-arrow"/></svg></a></section>
+
+    <section class="story-section" aria-label="About the shop"><div class="story-copy"><span class="eyebrow">NEIGHBORS FIRST. ALWAYS.</span><h2>Good people. Great service.<br><em>Right down the road.</em></h2><p>From quick maintenance to the repairs that keep your family moving, Harbor Auto Service is built around one simple idea: treat every car like it belongs to a neighbor.</p><p>This fictional shop gives the showroom a realistic local-business story without representing an actual repair business.</p><a href="#book" class="secondary-cta">Get started <svg><use href="#i-arrow"/></svg></a></div><div class="story-card"><div class="story-card-content"><span>THE HARBOR PROMISE</span><strong>HONEST WORK.<br>EVERY TIME.</strong><div class="red-brush"></div><p>Clear answers. Fair estimates. Repairs you can trust.</p></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="footer-brand"><strong>HARBOR</strong><span>AUTO SERVICE</span></div><p>Honest repairs. Local service.</p><div class="footer-links"><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a><a href="#top">Back to top ↑</a></div><p class="disclaimer">Showroom concept only. Harbor Auto Service, contact information, prices, reviews, certifications and service claims displayed here are fictional placeholders. No appointments are transmitted.</p></footer>
+
+  <dialog id="booking-dialog" aria-labelledby="dialog-heading"><div class="dialog-shell"><button type="button" id="close-dialog" class="dialog-close" aria-label="Close booking preview"><svg><use href="#i-close"/></svg></button><span class="eyebrow">APPOINTMENT REQUEST PREVIEW</span><h2 id="dialog-heading">Your service details</h2><p class="dialog-explainer">This is a working front-end demonstration. There is no scheduling system connected, so no appointment will be submitted or reserved.</p><dl id="booking-summary"></dl><div class="dialog-actions"><button type="button" id="copy-summary" class="primary-cta">COPY REQUEST DETAILS</button><button type="button" id="edit-booking" class="outline-cta">EDIT SELECTION</button></div><p id="copy-feedback" role="status" aria-live="polite"></p></div></dialog>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#090a0b">
+  <meta name="description" content="Apex Motorsports: performance tuning, fabrication, custom builds and race prep. A fully interactive concept website.">
+  <title>APEX Motorsports | Unlock Your Performance</title>
+  <link rel="preload" as="image" href="assets/img/hero.webp">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell" id="top">
+    <header class="site-header" id="site-header">
+      <div class="header-inner shell-width">
+        <a class="brand" href="#home" aria-label="Apex Motorsports, home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 240 67" xmlns="http://www.w3.org/2000/svg" role="img">
+              <defs><linearGradient id="tachRed" x1="0" x2="1"><stop stop-color="#ee1119"/><stop offset="1" stop-color="#8a0609"/></linearGradient></defs>
+              <path d="M127 23 A103 103 0 0 1 229 55" fill="none" stroke="#a80a0f" stroke-width="7" stroke-dasharray="16 5"/>
+              <path d="M173 19 A88 88 0 0 1 229 55" fill="none" stroke="url(#tachRed)" stroke-width="11" stroke-dasharray="16 4"/>
+              <text x="4" y="50" fill="#f4f4f4" font-family="Impact,Arial Black,sans-serif" font-style="italic" font-size="52" font-weight="900" letter-spacing="-1">APEX</text>
+              <text x="4" y="64" fill="#e7e8e9" font-family="Arial,sans-serif" font-style="italic" font-weight="900" font-size="15.5" letter-spacing="3.5">MOTORSPORTS</text>
+            </svg>
+          </span>
+          <span class="brand-services">PERFORMANCE<br>TUNING<br>FABRICATION<br>RACE PREP</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a class="nav-link is-active" href="#home">HOME</a>
+          <div class="nav-dropdown">
+            <button class="nav-link nav-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="tuning-dropdown">TUNING <span class="chevron">⌄</span></button>
+            <div class="dropdown-panel" id="tuning-dropdown">
+              <a href="#tuning">All packages</a>
+              <button type="button" data-package="Stage 1 Performance Tune">Stage 1</button>
+              <button type="button" data-package="Stage 2 Power & Flow">Stage 2</button>
+              <button type="button" data-package="Track / Custom">Track / custom</button>
+            </div>
+          </div>
+          <a class="nav-link" href="#builds">BUILDS</a>
+          <div class="nav-dropdown">
+            <button class="nav-link nav-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="services-dropdown">SERVICES <span class="chevron">⌄</span></button>
+            <div class="dropdown-panel" id="services-dropdown">
+              <a href="#tuning">ECU tuning</a>
+              <a href="#services">Fabrication</a>
+              <a href="#services">Race preparation</a>
+              <a href="#services">Performance upgrades</a>
+            </div>
+          </div>
+          <a class="nav-link" href="#about">ABOUT</a>
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </nav>
+        <button class="button button-small header-cta" type="button" data-open-booking><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M7 2v6M17 2v6M3 10h18"/></svg><span>BOOK A SESSION</span></button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+      </div>
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" inert>
+        <a href="#home">HOME <span>01</span></a>
+        <a href="#tuning">TUNING <span>02</span></a>
+        <a href="#builds">FEATURED BUILDS <span>03</span></a>
+        <a href="#services">SERVICES <span>04</span></a>
+        <a href="#about">ABOUT <span>05</span></a>
+        <a href="#contact">CONTACT <span>06</span></a>
+        <button class="button mobile-booking" type="button" data-open-booking>BOOK A SESSION <span>»</span></button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="Dark widebody race car attacking a corner at sunset"></div>
+        <div class="hero-scrim"></div>
+        <div class="hero-content shell-width">
+          <div class="hero-copy">
+            <span class="eyebrow mobile-only">ENGINEERED TO GO FASTER <span>///</span></span>
+            <h1 class="display-title" id="hero-title"><span>UNLOCK</span><span class="indent">YOUR</span><span class="red">PERFORMANCE</span></h1>
+            <p class="hero-kicker">TUNING <b>/</b> FABRICATION <b>/</b> UPGRADES <b>/</b> RACE PREP</p>
+            <p class="hero-description">From street builds to track weapons, APEX Motorsports delivers real-world power, reliability, and results.</p>
+            <a class="button button-main" href="#contact">START YOUR BUILD <span aria-hidden="true">»</span></a>
+          </div>
+        </div>
+        <div class="hero-metrics" aria-label="Illustrative performance highlights">
+          <div class="metric"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 30a16 16 0 1 1 26 0M20 10v4M9 18l4 3M31 18l-4 3M20 29l9-12"/><circle cx="20" cy="29" r="2.5" fill="currentColor"/></svg><span><strong>+178<em> HP</em></strong><small>GAIN (STAGE 2)</small></span></div>
+          <div class="metric"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="20" cy="21" r="15"/><path d="M20 7v4M20 31v4M6 21h4M30 21h4M20 21l10-8"/><circle cx="20" cy="21" r="2.5" fill="currentColor"/></svg><span><strong>+162<em> LB-FT</em></strong><small>TORQUE</small></span></div>
+          <div class="metric"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="20" cy="23" r="14"/><path d="M20 23V13M16 2h8M20 2v7M30 9l4-4"/><circle cx="20" cy="23" r="2" fill="currentColor"/></svg><span><strong>3.8<em>s</em></strong><small>0 – 60 MPH</small></span></div>
+        </div>
+      </section>
+
+      <section class="tuning-section" id="tuning" aria-labelledby="tuning-title">
+        <div class="tuning-photo" aria-hidden="true"></div>
+        <div class="shell-width tuning-inner">
+          <div class="section-heading tuning-heading"><span class="section-count">01 / THE UPGRADE</span><h2 id="tuning-title">TUNING PACKAGES <span>///</span></h2></div>
+          <div class="package-grid">
+            <article class="package-card package-one">
+              <span class="package-number">01</span>
+              <h3>STAGE 1</h3><p class="package-subtitle">PERFORMANCE TUNE</p>
+              <ul class="check-list"><li>ECU Calibration</li><li>Improved Power &amp; Response</li><li>Daily Driver Reliable</li></ul>
+              <div class="package-footer"><span class="price-prefix">FROM</span><strong>$599</strong></div>
+              <button type="button" class="package-select" data-package="Stage 1 Performance Tune">SELECT PACKAGE <span>↗</span></button>
+            </article>
+            <article class="package-card package-two">
+              <span class="package-number">02</span>
+              <h3>STAGE 2</h3><p class="package-subtitle">POWER &amp; FLOW</p>
+              <ul class="check-list"><li>Tuning + Intake/Exhaust</li><li>Higher Boost Targets</li><li>Big Gains, Streetable</li></ul>
+              <div class="package-footer"><span class="price-prefix">FROM</span><strong>$1,499</strong></div>
+              <button type="button" class="package-select" data-package="Stage 2 Power & Flow">SELECT PACKAGE <span>↗</span></button>
+            </article>
+            <article class="package-card package-three">
+              <span class="package-number">03</span>
+              <h3>TRACK / CUSTOM</h3><p class="package-subtitle">BUILT FOR YOUR GOALS</p>
+              <ul class="check-list"><li>Custom Calibration</li><li>Hardware Integration</li><li>Track, Drag, or Time Attack</li></ul>
+              <div class="package-footer"><strong class="quote-label">QUOTE BY BUILD</strong></div>
+              <button type="button" class="package-select" data-package="Track / Custom">PLAN A BUILD <span>↗</span></button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="builds-section" id="builds" aria-labelledby="builds-title">
+        <div class="shell-width builds-layout">
+          <div class="builds-intro"><p class="red eyebrow">FEATURED BUILDS <span>///</span></p><h2 id="builds-title">REAL<br>RESULTS</h2><button class="outline-button" id="view-all-builds" type="button" aria-expanded="false" aria-controls="extra-builds">VIEW ALL BUILDS <span aria-hidden="true">→</span></button></div>
+          <div class="build-cards">
+            <button type="button" class="build-card" data-build="mustang"><img src="assets/img/mustang.webp" alt="Blue Ford Mustang GT on a racetrack"><span class="build-info"><strong>MUSTANG GT</strong><em>+412 HP</em></span><span class="build-arrow" aria-hidden="true">↗</span></button>
+            <button type="button" class="build-card" data-build="supra"><img src="assets/img/supra.webp" alt="White Toyota GR Supra at the track"><span class="build-info"><strong>GR SUPRA</strong><em>+528 HP</em></span><span class="build-arrow" aria-hidden="true">↗</span></button>
+            <button type="button" class="build-card" data-build="gtr"><img src="assets/img/gtr.webp" alt="Purple Nissan GT-R R35 in golden-hour light"><span class="build-info"><strong>GT-R R35</strong><em>+720 HP</em></span><span class="build-arrow" aria-hidden="true">↗</span></button>
+            <button type="button" class="build-card" data-build="wrx"><img src="assets/img/wrx.webp" alt="Light blue Subaru WRX STI outdoors"><span class="build-info"><strong>WRX STI</strong><em>+382 HP</em></span><span class="build-arrow" aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+        <div class="extra-builds shell-width" id="extra-builds" hidden>
+          <p>Each build starts with a different goal. Select any vehicle above to explore its sample build sheet, or start a custom project to create your own.</p>
+          <button class="text-link" type="button" data-package="Track / Custom">PLAN A CUSTOM BUILD <span>→</span></button>
+        </div>
+      </section>
+
+      <section class="proof-strip" id="services" aria-label="Why choose Apex Motorsports">
+        <div class="shell-width proof-grid">
+          <div class="proof-item"><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 8C2 15 6 34 20 39M33 8c13 7 9 26-5 31M24 8l3.4 6.8 7.5 1.1-5.4 5.3 1.3 7.5L24 25.3l-6.8 3.4 1.3-7.5-5.4-5.3 7.5-1.1z"/><path d="M9 14l-3 2m5 5-4 2m7 5-3 3M39 14l3 2m-5 5 4 2m-7 5 3 3"/></svg><span><strong>PERFORMANCE<br>EXPERTS</strong><small>Tuning, Fabrication &amp; Race Prep</small></span></div>
+          <div class="proof-item"><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="12" y="12" width="24" height="24" rx="2"/><rect x="19" y="19" width="10" height="10"/><path d="M18 4v8M25 4v8M32 4v8M18 36v8M25 36v8M32 36v8M4 18h8M4 25h8M4 32h8M36 18h8M36 25h8M36 32h8"/></svg><span><strong>PROVEN<br>TECHNOLOGY</strong><small>Industry-Leading Tools &amp; Software</small></span></div>
+          <div class="proof-item"><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 8c6 0 9 3 9 9L37 36l-5 5-19-19c-6 0-9-3-9-9l6 4 5-5zM32 9a10 10 0 0 1 9 12l-9-2-6 6M11 31l-6 7 5 5 8-9"/></svg><span><strong>REAL-WORLD<br>EXPERIENCE</strong><small>Street, Track &amp; Competition Builds</small></span></div>
+          <div class="proof-item"><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M24 3l17 7v12c0 10-6 17-17 23C13 39 7 32 7 22V10z"/><path d="m15 23 7 7 12-13"/></svg><span><strong>QUALITY<br>&amp; RELIABILITY</strong><small>Performance You Can Trust</small></span></div>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-title">
+        <div class="cta-photo" aria-hidden="true"></div>
+        <div class="shell-width cta-content"><div class="cta-text"><p class="section-count">PUSH PAST ORDINARY</p><h2 id="final-title">READY TO BUILD<br>SOMETHING <span>SERIOUS?</span></h2><p>Tuning <b>/</b> Upgrades <b>/</b> Custom Builds <b>/</b> Race Prep</p></div><a href="#contact" class="button button-main cta-button">START YOUR BUILD <span aria-hidden="true">»</span></a></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="shell-width contact-grid">
+          <div class="contact-aside" id="about"><p class="eyebrow red">02 / THE NEXT STEP <span>///</span></p><h2 id="contact-title">EVERY BUILD<br>STARTS WITH<br><span>A CONVERSATION.</span></h2><p>Tell us what you drive, how you use it, and where you want to take it. The right setup starts with understanding the goal.</p><div class="about-divider"></div><h3>BUILT WITH PURPOSE.</h3><p>From a reliable daily driver to a dedicated track machine, the philosophy is simple: make it faster, make it smarter, make it last.</p><p class="concept-note">This is a fictional website concept. Vehicles, pricing and performance figures are illustrative.</p></div>
+          <form class="inquiry-form" id="inquiry-form" novalidate>
+            <p class="form-kicker">START A PROJECT <span>///</span></p>
+            <div class="form-fields"><label>YOUR NAME <span>*</span><input name="name" type="text" autocomplete="name" maxlength="100" required placeholder="Full name"></label><label>EMAIL ADDRESS <span>*</span><input name="email" type="email" autocomplete="email" maxlength="140" required placeholder="name@example.com"></label><label>YOUR VEHICLE <span>*</span><input name="vehicle" type="text" maxlength="100" required placeholder="Year / make / model"></label><label>WHAT ARE WE BUILDING? <span>*</span><select name="service" required><option value="" disabled selected>Select a service</option><option>Stage 1 Performance Tune</option><option>Stage 2 Power &amp; Flow</option><option>Track / Custom</option><option>Fabrication</option><option>Performance Upgrades</option><option>Race Preparation</option><option>Other / Not Sure</option></select></label></div>
+            <label>YOUR GOALS<textarea name="goals" maxlength="1800" rows="4" placeholder="Tell us about your goals, current modifications, or questions."></textarea></label>
+            <div class="form-actions"><button class="button button-main" type="submit">PREPARE INQUIRY <span aria-hidden="true">»</span></button><small>Interactive demo: inquiries are not sent or stored.</small></div>
+            <div class="form-result" id="form-result" role="status" aria-live="polite" hidden><strong>YOUR INQUIRY IS READY</strong><p>Review and copy the summary below. No message has been transmitted.</p><pre id="inquiry-summary"></pre><button type="button" class="outline-button" id="copy-inquiry">COPY INQUIRY</button></div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="shell-width footer-content"><a href="#top" class="footer-logo" aria-label="Apex Motorsports, back to top">APEX<span>MOTORSPORTS</span></a><p>ENGINEERED TO PERFORM. BUILT TO LAST.</p><p>INTERACTIVE CONCEPT SITE <span>© <span id="year"></span></span></p></div></footer>
+  </div>
+
+  <dialog class="site-dialog" id="booking-dialog" aria-labelledby="booking-title"><form method="dialog" class="dialog-frame" id="booking-form"><button type="button" class="dialog-close" data-close-dialog aria-label="Close booking">×</button><p class="eyebrow red">GET ON THE SCHEDULE <span>///</span></p><h2 id="booking-title">BOOK A SESSION</h2><p class="dialog-lede">Choose a preferred date and service. This demo prepares a request without submitting a reservation.</p><label>TYPE OF SESSION<select name="session" required><option>Performance consultation</option><option>ECU tuning</option><option>Build planning</option><option>Dyno session</option></select></label><div class="dialog-form-row"><label>PREFERRED DATE<input name="date" type="date" required></label><label>PREFERRED TIME<select name="time" required><option value="09:00">9:00 AM</option><option value="11:00">11:00 AM</option><option value="13:00">1:00 PM</option><option value="15:00">3:00 PM</option></select></label></div><label>YOUR VEHICLE<input name="vehicle" type="text" placeholder="Year / make / model" maxlength="100" required></label><button type="submit" class="button button-main dialog-submit">PREPARE REQUEST <span>»</span></button><div class="booking-result" id="booking-result" role="status" aria-live="polite" hidden><strong>REQUEST PREPARED</strong><p id="booking-summary"></p><p>Demo only: no appointment is booked.</p><button class="outline-button" id="copy-booking" type="button">COPY DETAILS</button></div></form></dialog>
+  <dialog class="site-dialog build-dialog" id="build-dialog" aria-labelledby="build-dialog-title"><div class="dialog-frame build-dialog-inner"><button type="button" class="dialog-close" data-close-dialog aria-label="Close build details">×</button><img id="build-dialog-image" src="assets/img/mustang.webp" alt=""><div class="build-dialog-copy"><p class="eyebrow red">FEATURED PROJECT <span>///</span></p><h2 id="build-dialog-title">MUSTANG GT</h2><p id="build-dialog-description"></p><div class="build-specs"><div><small>POWER GAIN*</small><strong id="build-dialog-power">+412 HP</strong></div><div><small>FOCUS</small><strong id="build-dialog-focus">STREET / TRACK</strong></div></div><p class="concept-note">*Illustrative concept statistics, not verified customer results.</p><button type="button" class="button button-main" data-package="Track / Custom">BUILD SOMETHING LIKE THIS <span>»</span></button></div></div></dialog>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Keep the whole showroom out of search results: pages, images, scripts and everything else.
+# The demos are fictional businesses. Every page also carries <meta name="robots" content="noindex, nofollow">,
+# which still works if this file is ignored (for example on an nginx-only Hestia template).
+# Don't add a robots.txt that blocks crawling: search engines would then never see the noindex.
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>

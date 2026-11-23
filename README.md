@@ -32,8 +32,8 @@ No build tools, database, PHP, backend service, container, or Node.js are requir
 1. Download the repository ZIP from GitHub using **Code > Download ZIP** (or the standard branch archive URL: `https://github.com/konstantindivinsky/DCC-Showroom/archive/refs/heads/main.zip`).
 2. In Hestia File Manager, open the chosen domain's `public_html` folder. Back up anything currently there.
 3. Upload the ZIP, extract it, and open the extracted `DCC-Showroom-main` folder.
-4. Move **all the contents** of that folder, not the folder itself, directly into `public_html`.
-5. Verify `public_html/index.html` exists, along with `public_html/showroom/`, `public_html/apex-motorsports/`, and the other demo folders.
+4. Move **all the contents** of that folder, not the folder itself, directly into `public_html`. That includes the hidden `.htaccess` file, which keeps the showroom out of search results.
+5. Verify `public_html/index.html` and `public_html/.htaccess` exist, along with `public_html/showroom/`, `public_html/apex-motorsports/`, and the other demo folders.
 6. Visit the domain using HTTPS. The showroom loads at `/`, while demos load at paths like `/apex-motorsports/` and `/saltwater-social/`.
 
 ### Equivalent command line deployment
@@ -64,10 +64,16 @@ atelier-noir/
 
 ## Content and privacy
 
-These concepts are demonstrations, not actual businesses or active customer services. Contact, reservation, and consultation controls inside demos may simulate preparing a request but are **not** wired to production backends. Demo phone numbers, awards, testimonials, prices, people, and performance figures may be fictional. The main showroom asks search engines not to index it. Replace imagery and confirm usage rights before reusing any concept for real clients.
+These concepts are demonstrations, not actual businesses or active customer services. Contact, reservation, and consultation controls inside demos may simulate preparing a request but are **not** wired to production backends. Awards, testimonials, prices, people, and performance figures may be fictional. Demo phone numbers and email addresses **must** be fictional so a visitor can never reach a real person or business: use `555` numbers (for example `(717) 555-0100` to `(717) 555-0199`) and addresses on the reserved `.example` domain (for example `hello@business-name.example`), never a real number or domain.
+
+## Search engines
+
+The showroom is kept out of search results on purpose, so the fictional businesses never show up as if they were real. Every page, the showroom and each demo, has `<meta name="robots" content="noindex, nofollow">`, and `.htaccess` sends the same instruction as an `X-Robots-Tag` header for everything else (images, scripts). Give any new demo the same meta tag. Don't add a `robots.txt` that blocks crawling: search engines would then never read the noindex.
+
+The page meant to show up in search for web design is [divinsky.net/web-design/](https://divinsky.net/web-design/), which links here. *Connect with Divinsky* opens the divinsky.net contact form with *Website design* already selected. Replace imagery and confirm usage rights before reusing any concept for real clients.
 
 ## Maintaining the gallery
 
-Add a future static demo in a new sibling folder with its own `index.html` and relative assets. Then add its metadata to `demos` in `showroom/app.js`, and optionally add a category to `categories`. The centered industry selector is data-driven so it does not require changes when categories are added.
+Add a future static demo in a new sibling folder with its own `index.html` (including the robots meta tag) and relative assets. Then add its metadata to `demos` in `showroom/app.js`, and optionally add a category to `categories`. The centered industry selector is data-driven so it does not require changes when categories are added.
 
 **No GitHub Actions workflows or hosted runners are required.**

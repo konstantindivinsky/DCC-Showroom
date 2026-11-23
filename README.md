@@ -64,7 +64,7 @@ atelier-noir/
 
 ## Content and privacy
 
-These concepts are demonstrations, not actual businesses or active customer services. Contact, reservation, and consultation controls inside demos may simulate preparing a request but are **not** wired to production backends. Demo phone numbers, awards, testimonials, prices, people, and performance figures may be fictional.
+These concepts are demonstrations, not actual businesses or active customer services. Contact, reservation, and consultation controls inside demos may simulate preparing a request but are **not** wired to production backends. Awards, testimonials, prices, people, and performance figures may be fictional. Demo phone numbers and email addresses **must** be fictional so a visitor can never reach a real person or business: use `555` numbers (for example `(717) 555-0100` to `(717) 555-0199`) and addresses on the reserved `.example` domain (for example `hello@business-name.example`), never a real number or domain.
 
 ## Search engines
 
